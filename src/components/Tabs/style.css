@@ -1,0 +1,31 @@
+.tab {
+  border: 1px solid black;
+}
+.tab ul {
+  list-style-type: none;
+}
+
+.tab ul li {
+  display: inline;
+  text-align: center;
+  background-color: gray;
+  color: red;
+}
+
+.tab ul li:hover{
+  color: yellow;
+  cursor: pointer;
+  background-color: orange;
+}
+
+.content {
+  display: none;
+}
+
+.show-content{
+  display: block;
+}
+
+.active-content{
+  display: block;
+}
