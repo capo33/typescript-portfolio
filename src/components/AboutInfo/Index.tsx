@@ -1,6 +1,3 @@
-import { FcAssistant } from "react-icons/fc";
-
-import { TitleStyle } from "../../utils/styles";
 import Image from "../../assets/images/crop.jpg";
 import { AboutData } from "../../Data/AboutData/Index";
 
@@ -11,9 +8,7 @@ function AboutInfo() {
         <img src={Image} alt='Capo' />
       </div>
       <div className='col-xs-12 col-md-8'>
-        <h2 style={TitleStyle}>
-          <FcAssistant /> Snippets
-        </h2>
+        <h2>Snippets</h2>
         {AboutData.map((item) => {
           return (
             <p key={item.id} className='p_link'>

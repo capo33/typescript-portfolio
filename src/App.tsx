@@ -6,6 +6,8 @@ import About from "./pages/About/About";
 import Sidebar from "./components/Sidebar/Index";
 import Navbar from "./components/Navbar/Index";
 import { Projects } from "./pages/Projects/Index";
+import ScrollToTop from "./components/ScrollToTop/Index";
+import Contact from "./pages/Contact/Index";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
 
@@ -21,6 +24,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/projects' element={<Projects />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
     </Router>
   );

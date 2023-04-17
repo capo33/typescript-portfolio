@@ -1,3 +1,4 @@
+import { FcCommandLine } from "react-icons/fc";
 import {
   FrontEndIcons,
   BackEndIcons,
@@ -14,10 +15,13 @@ const Technologies = () => {
   return (
     <section>
       <div className='container'>
-            <h2 style={TitleStyle}>Qualification</h2>
+        <h2 style={TitleStyle}>
+          {" "}
+          <FcCommandLine />
+          Technical Skills
+        </h2>
         <div className='row py-2 pb-5'>
           <div className='col-lg-4 col-md-6'>
-
             <div className='service-block4  '>
               <div className='service-desc'>
                 <h5>Front-end</h5>

@@ -1,21 +1,19 @@
 import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
-import { Link as LinkS } from "react-scroll";
 
-// #FFFFFF
-// #E2E2E2
 interface NavStyleProps {
   scrollNav?: boolean;
 }
 export const Nav = styled.nav<NavStyleProps>`
-  background-color: ${({ scrollNav }) => (scrollNav ? "#2D4263" : "#191919")};
-   height: 80px;
+  background-color: ${({ scrollNav }) => (scrollNav ? "#22A39F" : "#222222")};
+  height: 80px;
   /* margin-top: -80px; */
+  transition: all 0.3s;
   display: flex;
   justify-content: center;
   align-items: center;
   position: sticky;
-  font-size: 1rem;
+  font-size: 1.2rem;
   top: 0;
   z-index: 10;
   @media screen and (max-width: 960px) {
@@ -34,7 +32,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-  color: #ECDBBA;
+  color: #ffffff;
   display: flex;
   justify-self: flex-start;
   align-items: center;
@@ -51,10 +49,9 @@ export const MobileIcon = styled.div`
     position: absolute;
     right: 0;
     top: 0;
-    transform: translate(-100%, 70%);
+    transform: translate(-100%, 35%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #ECDBBA;
   }
 `;
 
@@ -72,17 +69,17 @@ export const NavItems = styled.li`
   height: 80px;
 `;
 
-export const NavLinks = styled(LinkR)`
-  color: #ECDBBA;
+export const NavLinks = styled(LinkR)<NavStyleProps>`
+  color: #ffffff;
   display: flex;
   align-items: center;
   text-decoration: none;
   height: 100%;
   padding: 0 1rem;
   cursor: pointer;
-  &.active {
-    border-bottom: 3px solid #01bf71;
-  }
+  &:hover {
+     border-bottom: 3px solid ${({ scrollNav }) => (scrollNav ? "#222222" : " #22A39F")};
+   }
 `;
 
 export const NavBtn = styled.div`
@@ -92,20 +89,21 @@ export const NavBtn = styled.div`
     display: none;
   }
 `;
-export const NavBtnLink = styled(LinkR)`
+export const NavBtnLink = styled(LinkR)<NavStyleProps>`
   border-radius: 50px;
-  background-color: #ECDBBA;
+  background-color: ${({ scrollNav }) => (scrollNav ? "#222222" : "#22A39F")};
+  color: ${({ scrollNav }) => (scrollNav ? "#FFFFFF" : "#222222")};
   white-space: nowrap;
   padding: 10px 22px;
-  color: #010606;
   text-decoration: none;
   font-size: 16px;
   border: none;
   cursor: pointer;
+
   transition: 0.2s all ease-in-out;
   &:hover {
     transition: 0.2s all ease-in-out;
-    background-color: #fff;
+    background-color: #ffffff;
     color: #010601;
   }
 `;

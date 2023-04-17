@@ -7,11 +7,10 @@ import Technologies from "../../components/Technologies/Index";
 import Qualification from "../../components/Qualification/Qualification";
 
 const Main = styled.main`
-  padding: 10% 0 0;
-  color: #000;
-  background-color: #fff;
-  font-family: "Montserrat", sans-serif;
-
+  padding: 5% 0 0;
+  color: #000; 
+  height:100vh ;
+ 
   img {
     width: 100%;
     object-fit: cover;
@@ -29,10 +28,12 @@ const Main = styled.main`
     }
   }
 
-  @media screen and (max-width: 768px) {
-  }
-  .p_link {
-    line-height: 2rem;
+   .p_link {
+    line-height: 1.7;
+  color: #464646;
+  font-size: 1rem;
+
+ 
   }
   @media screen and (max-width: 768px), (max-width: 1024px) {
     .p_link {

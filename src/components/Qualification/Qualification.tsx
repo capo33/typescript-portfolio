@@ -1,6 +1,4 @@
 import { FcGraduationCap, FcBriefcase } from "react-icons/fc";
-import { FcAssistant, FcManager } from "react-icons/fc";
-import { FcCommandLine } from "react-icons/fc";
 
 import {
   educactionData,
@@ -10,15 +8,11 @@ import { TitleStyle } from "../../utils/styles";
 import WorkExperience from "../../components/WorkExperience/Index";
 import "./qualification.scss";
 
- 
-
 const Qualification = () => {
   return (
     <>
       <div className='row py-5'>
-        <h2 style={TitleStyle}>
-          <FcManager /> Qualification
-        </h2>
+        <h2>Qualification</h2>
         <div className='col-xs-12 col-sm-6 '>
           <div className='timeline'>
             <h3 style={TitleStyle}>

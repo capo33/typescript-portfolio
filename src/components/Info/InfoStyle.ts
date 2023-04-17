@@ -12,9 +12,12 @@ interface InfoStyleProps {
 
 export const InfoSec = styled.div<InfoStyleProps>`
   color: #fff;
-  padding: 160px 0;
-  background: ${({ lightBg }) => (lightBg ? '#fff' : '#191919')};
-  
+  /* padding: 160px 0; */
+  display:flex ;
+  justify-content: center ;
+  align-items:center ;
+  height:100vh ;
+  background: ${({ lightBg }) => (lightBg ? '#FFFFFF' : '#222222')};
 `;
 
 export const InfoRow = styled.div<InfoStyleProps>`
@@ -58,7 +61,7 @@ export const ImgWrapper = styled.div<InfoStyleProps>`
 `;
 
 export const TopLine = styled.div<InfoStyleProps>`
-  color: ${({ lightTopLine }) => (lightTopLine ? '#a9b3c1' : '#4B59F7')};
+  color: #a9b3c1;
   font-size: 18px;
   line-height: 16px;
   font-weight: 700;

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 interface InfoStyleProps {
   lightBg?: boolean;
@@ -10,30 +10,11 @@ interface InfoStyleProps {
   lightTextDesc?: boolean;
 }
 
-interface InfoSectionProps {
-  id?: string;
-  primary?: boolean;
-  lightBg?: boolean;
-  topLine?: string;
-  lightTopLine?: boolean;
-  lightText?: boolean;
-  lightTextDesc?: boolean;
-  headLine?: string;
-  description?: string;
-  buttonLabel?: string;
-  img?: string;
-  alt?: string;
-  imgStart?: string;
-  start?: string;
-  topPadding?: boolean;
-  bigHeight?: boolean;
-}
-
+ 
 export const InfoSec = styled.div<InfoStyleProps>`
   color: #fff;
   padding: 160px 0;
-  background: ${({ lightBg }) => (lightBg ? '#fff' : '#191919')};
-  
+  background: ${({ lightBg }) => (lightBg ? "#fff" : "#191919")};
 `;
 
 export const InfoRow = styled.div<InfoStyleProps>`
@@ -41,7 +22,7 @@ export const InfoRow = styled.div<InfoStyleProps>`
   margin: 0 -15px -15px -15px;
   flex-wrap: wrap;
   align-items: center;
-  flex-direction: ${({ imgStart }) => (imgStart ? 'row-reverse' : 'row')};
+  flex-direction: ${({ imgStart }) => (imgStart ? "row-reverse" : "row")};
 `;
 
 export const InfoColumn = styled.div`
@@ -73,11 +54,11 @@ export const TextWrapper = styled.div`
 export const ImgWrapper = styled.div<InfoStyleProps>`
   max-width: 555px;
   /* display: flex; */
-  justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
+  justify-content: ${({ start }) => (start ? "flex-start" : "flex-end")};
 `;
 
 export const TopLine = styled.div<InfoStyleProps>`
-  color: ${({ lightTopLine }) => (lightTopLine ? '#a9b3c1' : '#4B59F7')};
+  color: ${({ lightTopLine }) => (lightTopLine ? "#a9b3c1" : "#4B59F7")};
   font-size: 18px;
   line-height: 16px;
   font-weight: 700;
@@ -100,7 +81,7 @@ export const Heading = styled.h1<InfoStyleProps>`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#1c2237')};
+  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#1c2237")};
 `;
 
 export const Subtitle = styled.p<InfoStyleProps>`
@@ -108,5 +89,5 @@ export const Subtitle = styled.p<InfoStyleProps>`
   /* margin-bottom: 35px; */
   font-size: 18px;
   line-height: 2;
-  color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
+  color: ${({ lightTextDesc }) => (lightTextDesc ? "#a9b3c1" : "#1c2237")};
 `;

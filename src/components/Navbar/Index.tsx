@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { useState, useEffect } from "react";
+import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
-import { Button } from "../../globalStyle";
+
 import { animateScroll as scroll } from "react-scroll";
 
 import {
@@ -19,6 +19,7 @@ import {
 interface NavbarProps {
   toggle: () => void;
 }
+
 function Navbar({ toggle }: NavbarProps) {
   const [scrollNav, setScrollNav] = useState(false);
 
@@ -46,37 +47,27 @@ function Navbar({ toggle }: NavbarProps) {
       <IconContext.Provider value={{ color: "#fff", size: "1.5rem" }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
-            <NavLogo to='/' onClick={toggleHome} >
+            <NavLogo to='/' onClick={toggleHome}>
               Mo
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
             </MobileIcon>
             <NavMenu>
-              <NavItems>
-                <NavLinks
-                  to='/about'
-                >
-                  About
-                </NavLinks>
+              <NavItems >
+                <NavLinks scrollNav={scrollNav} to='/about'>About</NavLinks>
               </NavItems>
               <NavItems>
-                <NavLinks
-                  to='/projects'
-                >
-                  Projects
-                </NavLinks>
+                <NavLinks scrollNav={scrollNav} to='/projects'>Projects</NavLinks>
               </NavItems>
               <NavItems>
-                <NavLinks
-                  to='services'
-                >
-                  Services
-                </NavLinks>
+                <NavLinks scrollNav={scrollNav} to='/contact'>Contact</NavLinks>
               </NavItems>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to='signin'>Resume</NavBtnLink>
+              <NavBtnLink scrollNav={scrollNav} to='signin'>
+                Resume
+              </NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>

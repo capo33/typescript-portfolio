@@ -1,11 +1,22 @@
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Encode Sans Expanded', sans-serif;
+  font-family: "Encode Sans Expanded", sans-serif;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
-a{
-  text-decoration: none;
-  color: #000;
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: 10px;
+  overflow-x: hidden;
+}
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+  body::-webkit-scrollbar {
+    display: none;
+  }
 }

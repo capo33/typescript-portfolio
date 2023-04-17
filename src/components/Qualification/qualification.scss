@@ -48,7 +48,7 @@ $font-stack: "Montserrat", sans-serif;
   &:after {
     content: "";
     width: 3px;
-    background: #2d4263;
+    background: #222222;
     display: block;
     position: absolute;
     top: 0;
@@ -57,13 +57,12 @@ $font-stack: "Montserrat", sans-serif;
   }
 }
 .timeline-item:hover .timeline-marker:after {
-  background: #c84b31;
-  border: 1px solid #c84b31;
+  border: 1px solid #22A39F;
 }
 
 h2{
   padding-bottom: 20px;
-  text-decoration: underline 4px #C84B31;
+  text-decoration: underline 4px #22A39F;
 }
 h2,
 h3,
