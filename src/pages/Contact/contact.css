@@ -1,28 +1,5 @@
-.contact .heading h2 {
-  color: #222222;
-}
-
-.contact .heading h2 span {
-  font-size: 30px;
-  font-weight: 700;
-  color: #22a39f;
-}
-
-.contact .heading p {
-  line-height: 1.7;
-  color: #222222;
-  font-size: 1rem;
-  margin: 20px 0 60px;
-  display: flex;
-  justify-content: space-around;
-  text-align: justify;
-}
-
+ 
 .contact .form-control {
-  padding: 10px;
-  margin-bottom: 10px;
-  box-shadow: none;
-  resize: none;
 }
 
 input,

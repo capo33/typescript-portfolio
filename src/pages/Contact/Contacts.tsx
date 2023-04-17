@@ -1,76 +1,53 @@
-import { Link } from "react-router-dom";
 import { RiMailSendFill } from "react-icons/ri";
-
+import { AiFillLinkedin } from "react-icons/ai";
 import { Container, Button } from "../../globalStyle";
 import {
   InfoSec,
+  Heading,
+  Paragraph,
+  Span,
   InfoRow,
   InfoColumn,
-  TextWrapper,
   TopLine,
-  Heading,
-  Subtitle,
   ImgWrapper,
   Img,
+  Form,
+  Input,
+  TextArea,
+  Label,
+  SocialIcons,
 } from "./contactStyle";
-
-const styles = {
-  width: "100%",
-  outline: "none",
-  display: "block",
-  // height: "50px",
-  padding: "10px",
-  border: "1px solid black",
-  marginBottom: "20px",
-};
 
 interface InfoSectionProps {
   id?: string;
   primary?: boolean;
   lightBg?: boolean;
   topLine?: string;
-  lightTopLine?: boolean;
-  lightText?: boolean;
-  lightTextDesc?: boolean;
-  headLine?: string;
-  description?: string;
-  buttonLabel?: string;
   img?: string;
   alt?: string;
-  imgStart?: string;
   start?: string;
-  topPadding?: boolean;
-  bigHeight?: boolean;
+  title?: string;
 }
+
 const Contacts = ({
   id,
   primary,
   lightBg,
   topLine,
-  lightTopLine,
-  lightText,
-  lightTextDesc,
-  headLine,
-  description,
-  buttonLabel,
   img,
   alt,
   start,
+  title,
 }: InfoSectionProps) => {
   return (
-    <InfoSec lightBg={lightBg} id={id}>
-      <Container>
-        <section className='contact'>
-          <div className='heading text-center'>
-            <h2>
-              Get in <span>Touch </span>
-            </h2>
-            <p>
-              I am available for freelance work. If you have a project that you
-              would like to get started, think you need my help with something
-              or just fancy saying hello, then please get in touch.
-            </p>
-          </div>
+    <>
+      <InfoSec lightBg={lightBg} id={id}>
+        <Container>
+        
+          <Heading>
+            Get in <Span>Touch</Span>
+          </Heading>
+          <Paragraph>{title}</Paragraph>
           <InfoRow>
             <InfoColumn>
               <ImgWrapper start={start}>
@@ -78,38 +55,50 @@ const Contacts = ({
               </ImgWrapper>
             </InfoColumn>
             <InfoColumn>
-              <>
-                <TopLine>{topLine}</TopLine>
-                <form>
-                  <input type='text' className='' placeholder='Name' />
-                  <input type='email' className='' placeholder='Email' />
-                  <textarea rows={5} placeholder='Message'></textarea>
-                  <Button primary={primary}>
-                    Send <RiMailSendFill />
-                  </Button>{" "}
-                </form>
-              </>
+              <TopLine>{topLine}</TopLine>
+              <Form>
+                <Label htmlFor='name'>Name</Label>
+                <Input type='text' className='' />
+                <Label htmlFor='email'>Email</Label>
+                <Input type='email' className='' />
+                <Label htmlFor='message'>Message</Label>
+                <TextArea rows={5}></TextArea>
+                <Button primary={primary}>
+                  Send <RiMailSendFill />
+                </Button>{" "}
+              </Form>
             </InfoColumn>
           </InfoRow>
-        </section>
-      </Container>
-    </InfoSec>
+          <SocialIcons >
 
-    //   <Container>
-    //     <InfoRow imgStart={imgStart}>
-    //       <InfoColumn>
-
-    // <Button big primary={primary}>
-    //   Send
-    // </Button>{" "}
-    //       </InfoColumn>
-    //       <InfoColumn>
-    // <ImgWrapper start={start}>
-    //   <Img src={img} alt={alt} />
-    // </ImgWrapper>
-    //       </InfoColumn>
-    //     </InfoRow>
-    //   </Container>
+          <AiFillLinkedin
+          style={{
+            width: "2rem",
+            height: "2rem",
+            fontSize: "3rem",
+            color: "black",
+          }}
+          />
+          <AiFillLinkedin
+          style={{
+            width: "2rem",
+            height: "2rem",
+            fontSize: "3rem",
+            color: "black",
+          }}
+          />
+          <AiFillLinkedin
+          style={{
+            width: "2rem",
+            height: "2rem",
+            fontSize: "3rem",
+            color: "black",
+          }}
+          />
+          </SocialIcons>
+        </Container>
+      </InfoSec>
+    </>
   );
 };
 

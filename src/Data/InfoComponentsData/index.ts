@@ -7,7 +7,7 @@ export const InfoObjOne: IInfos = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Mohamed ",
+  topLine: "Mohamed",
   headLine: "Software Developer & Web Designer",
   description:
     "I am a full-stack developer based in Finland with 3+ years of programming experience",
@@ -49,4 +49,6 @@ export const InfoObjThree = {
   imgStart: "start",
   img: require("../../assets/svgs/undraw_quick_chat_re_bit5.svg").default,
   big: false,
+  title:
+    " I am available for freelance work. If you have a project that you would like to get started, think you need my help with something or just fancy saying hello, then please get in touch.",
 };

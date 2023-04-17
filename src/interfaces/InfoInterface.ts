@@ -16,4 +16,5 @@ export interface IInfos {
   topPaddding?: boolean;
   bigHeight?: boolean;
   big?: boolean;
+  title?: string;
 }
