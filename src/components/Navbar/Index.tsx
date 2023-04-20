@@ -54,14 +54,25 @@ function Navbar({ toggle }: NavbarProps) {
               <FaBars />
             </MobileIcon>
             <NavMenu>
-              <NavItems >
-                <NavLinks scrollNav={scrollNav} to='/about'>About</NavLinks>
+              <NavItems>
+                <NavLinks scrollNav={scrollNav} to='/'>
+                  Home
+                </NavLinks>
               </NavItems>
               <NavItems>
-                <NavLinks scrollNav={scrollNav} to='/projects'>Projects</NavLinks>
+                <NavLinks scrollNav={scrollNav} to='/about'>
+                  About
+                </NavLinks>
               </NavItems>
               <NavItems>
-                <NavLinks scrollNav={scrollNav} to='/contact'>Contact</NavLinks>
+                <NavLinks scrollNav={scrollNav} to='/projects'>
+                  Projects
+                </NavLinks>
+              </NavItems>
+              <NavItems>
+                <NavLinks scrollNav={scrollNav} to='/contact'>
+                  Contact
+                </NavLinks>
               </NavItems>
             </NavMenu>
             <NavBtn>

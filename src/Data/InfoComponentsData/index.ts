@@ -50,5 +50,5 @@ export const InfoObjThree = {
   img: require("../../assets/svgs/undraw_quick_chat_re_bit5.svg").default,
   big: false,
   title:
-    " I am available for freelance work. If you have a project that you would like to get started, think you need my help with something or just fancy saying hello, then please get in touch.",
+    " I am available for freelance work. If you have a project that you would like to get started, think you need my help with something or just fancy saying hello, then please get in touch :)",
 };

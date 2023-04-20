@@ -5,7 +5,8 @@ import {
   workExperienceData,
 } from "../../Data/QualificationData/Index";
 import { TitleStyle } from "../../utils/styles";
-import WorkExperience from "../../components/WorkExperience/Index";
+import WorkExperience from "../WorkExperience/Index";
+
 import "./qualification.scss";
 
 const Qualification = () => {

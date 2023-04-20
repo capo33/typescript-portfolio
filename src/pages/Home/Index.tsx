@@ -6,8 +6,7 @@ const Home = () => {
     <div>
       <Info {...InfoObjOne} />
       <Info {...InfoObjTwo} />
-      <Info {...InfoObjOne} />
-    </div>
+     </div>
   );
 };
 

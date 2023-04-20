@@ -2,23 +2,23 @@ import { ILinks } from "../../interfaces/LinksInterface";
 
 export const links: ILinks[] = [
   {
-    to: "about",
-    text: "About",
+    to: "/",
+    text: "Home",
     id: 1,
   },
   {
-    to: "discover",
-    text: "Discover",
+    to: "/about",
+    text: "About",
     id: 2,
   },
   {
-    to: "services",
-    text: "Services",
+    to: "/projects",
+    text: "Projects",
     id: 3,
   },
   {
-    to: "signup",
-    text: "Sign Up",
+    to: "/contact",
+    text: "Contact",
     id: 4,
   },
 ];

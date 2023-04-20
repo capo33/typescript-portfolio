@@ -1,0 +1,83 @@
+//variables
+$basic-dark-color: #212121;
+$basic-light-color: #fff;
+$linkedin: #007bb6;
+$github: #333;
+$twitter: #00aced;
+$border-radius: 10px;
+$font-size: 1.1em;
+
+.effect {
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    // gap: 20px;
+    padding-bottom: 7%;
+  }
+
+  a {
+    color: $basic-light-color;
+    width: 2.5em;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: $border-radius;
+    margin-right: 20px;
+    font-size: $font-size;
+    overflow: hidden;
+    position: relative;
+
+    &:last-child {
+      margin-right: 0px;
+    }
+    i {
+      position: relative;
+      z-index: 3;
+    }
+
+    &.linkedin {
+      background-color: $linkedin;
+    }
+
+    &.github {
+      background-color: $github;
+    }
+    &.twitter {
+      background-color: $twitter;
+    }
+  }
+}
+
+/* egeon effect */
+.egeon {
+  a {
+    transition: transform 0.2s linear 0s, border-radius 0.2s linear 0.2s;
+
+    i {
+      transition: transform 0.2s linear 0s;
+    }
+
+    &:hover {
+      transform: rotate(-90deg);
+      border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+
+      i {
+        transform: rotate(90deg);
+      }
+    }
+  }
+}
+
+.flexy {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}

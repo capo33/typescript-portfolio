@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-  padding: 3% 0 0;
-  height: 100vh;
+  padding: 3% 0;
+  /* height: 100vh; */
+  @media screen and (max-width: 320px) {
+    padding: 5% 0 20%;
+  }
 `;
 
 export const MenuBar = styled.div`

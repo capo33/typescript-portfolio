@@ -1,4 +1,3 @@
-
 import {
   SidebarContainer,
   Icon,
@@ -6,8 +5,11 @@ import {
   SidebarWrapper,
   SidebarMenu,
   SidebarLink,
+  // SidebtnWrap,
+  // SidebarRoute,
 } from "./SidebarStyle";
 import { links } from "../../Data/NavbarData/Index";
+
 interface SidebarProps {
   isOpen: boolean;
   toggle: () => void;
@@ -29,6 +31,9 @@ function Sidebar({ isOpen, toggle }: SidebarProps) {
             );
           })}
         </SidebarMenu>
+        {/* <SidebtnWrap>
+          <SidebarRoute to="/signin">Sign In</SidebarRoute>
+        </SidebtnWrap> */}
       </SidebarWrapper>
     </SidebarContainer>
   );

@@ -5,9 +5,10 @@ import Home from "./pages/Home/Index";
 import About from "./pages/About/About";
 import Sidebar from "./components/Sidebar/Index";
 import Navbar from "./components/Navbar/Index";
-import { Projects } from "./pages/Projects/Index";
+import Projects from "./pages/Projects/Index";
 import ScrollToTop from "./components/ScrollToTop/Index";
 import Contact from "./pages/Contact/Index";
+import Footer from "./components/Footer/Index";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path='/projects' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
