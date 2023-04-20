@@ -48,12 +48,12 @@ export const portfolioProjects: IProject[] = [
     links: [
       {
         id: uuid,
-        link: "https://data-company.netlify.app/",
+        link: "https://ts-country-api-app.netlify.app/",
         icon: <FcGlobe style={{ fontSize: "30px" }} />,
       },
       {
         id: uuid,
-        link: "https://github.com/capo33/data-company",
+        link: "hhttps://github.com/capo33/country-api-app",
         icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
       },
     ],
