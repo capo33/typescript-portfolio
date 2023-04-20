@@ -53,7 +53,7 @@ export const portfolioProjects: IProject[] = [
       },
       {
         id: uuid,
-        link: "hhttps://github.com/capo33/country-api-app",
+        link: "https://github.com/capo33/country-api-app",
         icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
       },
     ],
