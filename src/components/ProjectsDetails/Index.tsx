@@ -57,6 +57,7 @@ const ProjectsDetails = () => {
             All
           </MenuBarItems>
           <MenuBarItems onClick={handleFilter}>School</MenuBarItems>
+          <MenuBarItems onClick={handleFilter}>Javascript</MenuBarItems>
           <MenuBarItems onClick={handleFilter}>Front-end</MenuBarItems>
           <MenuBarItems onClick={handleFilter}>Mern-stack</MenuBarItems>
           <MenuBarItems onClick={handleFilter}>Experimental</MenuBarItems>

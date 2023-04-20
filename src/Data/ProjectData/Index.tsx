@@ -289,25 +289,44 @@ export const portfolioProjects: IProject[] = [
       },
     ],
   },
-  // {
-  //   id: uuid,
-  //   tag: "Javascript",
-  //   image: "/image/speaker.png",
-  //   title: "Text Speaker",
-  //   description: "JavaScript",
-  //   links: [
-  //     {
-  //       id: uuid,
-  //       link: "https://capo33.github.io/Text-to-Speech/",
-  //       icon: <FcGlobe style={{ fontSize: "30px" }} />,
-  //     },
-  //     {
-  //       id: uuid,
-  //       link: "https://github.com/capo33/Text-to-Speech",
-  //       icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
-  //     },
-  //   ],
-  // },
+  {
+    id: uuid,
+    tag: "Javascript",
+    image: "/image/speaker.png",
+    title: "Text Speaker",
+    description: "JavaScript",
+    links: [
+      {
+        id: uuid,
+        link: "https://capo33.github.io/Text-to-Speech/",
+        icon: <FcGlobe style={{ fontSize: "30px" }} />,
+      },
+      {
+        id: uuid,
+        link: "https://github.com/capo33/Text-to-Speech",
+        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+      },
+    ],
+  },
+  {
+    id: uuid,
+    tag: "Javascript",
+    image: "/image/guss-my-number.png",
+    title: "Guess My Number",
+    description: "JavaScript - HTML - CSS - AWS S3",
+    links: [
+      {
+        id: uuid,
+        link: "https://test-capo-first-bucket.s3.eu-north-1.amazonaws.com/guess-my-number/index.html",
+        icon: <FcGlobe style={{ fontSize: "30px" }} />,
+      },
+      {
+        id: uuid,
+        link: "hthttps://github.com/capo33/Guss-my-number",
+        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+      },
+    ],
+  },
   // {
   //   id: uuid,
   //   tag: "Javascript",
