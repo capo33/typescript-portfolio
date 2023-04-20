@@ -11,12 +11,13 @@ export const InfoObjOne: IInfos = {
   headLine: "Software Developer & Web Designer",
   description:
     "I am a full-stack developer based in Finland with 3+ years of programming experience",
-  buttonLabel: "My Details",
+  buttonLabel: "More Details",
   imgStart: "",
   img: require("../../assets/svgs/version_control.svg").default,
   start: "",
   topPadding: false,
   bigHeight: true,
+  link: "about",
 };
 
 export const InfoObjTwo: IInfos = {
@@ -30,13 +31,14 @@ export const InfoObjTwo: IInfos = {
   headLine: "Full-stack",
   description:
     "Since I work on frontend, backend, database and debugging of web applications or websites. I have the ability to design complete applications and websites ",
-  buttonLabel: "My Projects",
+  buttonLabel: "My Works",
   imgStart: "start",
   img: require("../../assets/svgs/percentages.svg").default,
   alt: "",
   start: "",
   topPadding: true,
   bigHeight: false,
+  link: "projects",
 };
 
 export const InfoObjThree = {

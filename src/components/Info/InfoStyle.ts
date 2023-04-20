@@ -26,7 +26,12 @@ export const InfoSec = styled.div<InfoStyleProps>`
   @media screen and (min-width: 1024px) {
     /* height:100vh ;
     padding: 0 */
+    
   }
+  @media (max-width: 768px) {
+    padding: 50px 0;
+  }
+
 `;
 
 export const InfoRow = styled.div<InfoStyleProps>`

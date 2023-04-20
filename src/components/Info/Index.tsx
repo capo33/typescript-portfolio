@@ -28,6 +28,7 @@ interface InfoSectionProps {
   alt?: string;
   imgStart?: string;
   start?: string;
+  link?: string;
 }
 
 function Info({
@@ -45,6 +46,7 @@ function Info({
   alt,
   imgStart,
   start,
+  link,
 }: InfoSectionProps) {
   return (
     <>
@@ -56,7 +58,7 @@ function Info({
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headLine}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link to='/sign-up'>
+                <Link to={`/${link}`}>
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>

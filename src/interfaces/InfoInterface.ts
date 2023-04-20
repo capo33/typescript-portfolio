@@ -17,4 +17,5 @@ export interface IInfos {
   bigHeight?: boolean;
   big?: boolean;
   title?: string;
+  link?: string;
 }
