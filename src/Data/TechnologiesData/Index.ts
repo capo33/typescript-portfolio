@@ -128,7 +128,7 @@ const GameIcons = [
 const CloudIcon = [
   {
     id: 1,
-    img: "icons/Aws.svg",
+    img: "icons/aws.svg",
     alt: "AWS",
   },
 ];

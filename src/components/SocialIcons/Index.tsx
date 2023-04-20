@@ -1,12 +1,10 @@
 import { FcPhone } from "react-icons/fc";
 import { MdEmail } from "react-icons/md";
-import { BsGithub } from "react-icons/bs";
-import { FaTwitter } from "react-icons/fa";
-import { AiFillLinkedin } from "react-icons/ai";
 
 import { ResumeData } from "../../Data/ContactData";
-import "./SocialIcons.scss";
 import { SocialLinks } from "../../Data/SocialLinksData/Index";
+
+import "./SocialIcons.scss";
 
 const SocialIcons = () => {
   return (

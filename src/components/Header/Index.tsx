@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { IconContext } from "react-icons/lib";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { animateScroll as scroll } from "react-scroll";
-
+ 
 import {
   Nav,
   NavbarContainer,
@@ -19,31 +18,13 @@ import { links } from "../../Data/NavbarData/Index";
 
 const Header = () => {
   const [click, setClick] = useState(false);
-  const [scrollNav, setScrollNav] = useState(false);
 
-  const handleScroll = () => {
-    if (window.scrollY >= 80) {
-      setScrollNav(true);
-    } else {
-      setScrollNav(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-  const handleClick = () => {
-    setClick(!click);
-    scroll.scrollToTop();
-  };
+  const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
   return (
     <IconContext.Provider value={{ color: "#fff", size: "1.5rem" }}>
-      <Nav scrollNav={scrollNav}>
+      <Nav>
         <NavbarContainer>
           <NavLogo to='/' onClick={closeMobileMenu}>
             Mo
@@ -51,15 +32,11 @@ const Header = () => {
           <MobileIcon onClick={handleClick}>
             {click ? <FaTimes /> : <FaBars />}
           </MobileIcon>
-          <NavMenu onClick={handleClick} click={click} scrollNav={scrollNav}>
+          <NavMenu onClick={handleClick} click={click}>
             {links.map((link) => {
               return (
                 <NavItems key={link.id}>
-                  <NavLinks
-                    to={link.to}
-                    onClick={closeMobileMenu}
-                    scrollNav={scrollNav}
-                  >
+                  <NavLinks to={link.to} onClick={closeMobileMenu}>
                     {link.text}
                   </NavLinks>
                 </NavItems>
@@ -67,7 +44,7 @@ const Header = () => {
             })}
           </NavMenu>
           <NavBtn>
-            <NavBtnLink download href={CV} scrollNav={scrollNav}>
+            <NavBtnLink download href={CV}>
               Download CV
             </NavBtnLink>
           </NavBtn>

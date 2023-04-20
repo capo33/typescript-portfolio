@@ -4,8 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import { pdfjs } from 'react-pdf';
-
+ 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );

@@ -9,8 +9,8 @@ interface NavStyleProps {
   click?: boolean;
 }
 
-export const Nav = styled.nav<NavStyleProps>`
-  background-color: ${({ scrollNav }) => (scrollNav ? "#22A39F" : "#222222")};
+export const Nav = styled.nav`
+  background-color: #222222;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -20,6 +20,7 @@ export const Nav = styled.nav<NavStyleProps>`
   position: sticky;
   top: 0;
   z-index: 999;
+
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
   }
@@ -70,7 +71,7 @@ export const NavMenu = styled.ul<NavStyleProps>`
   padding: 0 1rem;
   left: ${({ click }) => (click ? 0 : "-100%")};
   @media screen and (max-width: 960px) {
-    background-color: ${({ scrollNav }) => (scrollNav ? "#22A39F" : "#222222")};
+    background-color: #222222;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -107,7 +108,7 @@ export const NavItemBtn = styled.li`
   } */
 `;
 
-export const NavLinks = styled(Link)<NavStyleProps>`
+export const NavLinks = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -121,7 +122,7 @@ export const NavLinks = styled(Link)<NavStyleProps>`
     width: 100%;
     display: table;
     &:hover {
-      color: ${({ scrollNav }) => (scrollNav ? "#222222" : "#22A39F")};
+      color: #22A39F;
     }
   }
 `;
@@ -134,10 +135,10 @@ export const NavBtn = styled.div`
   }
 `;
 
-export const NavBtnLink = styled.a<NavStyleProps>`
+export const NavBtnLink = styled.a`
   border-radius: 50px;
-  background-color: ${({ scrollNav }) => (scrollNav ? "#222222" : "#22A39F")};
-  color: ${({ scrollNav }) => (scrollNav ? "#FFFFFF" : "#222222")};
+  background-color:#22A39F;
+  color: #222222;
   white-space: nowrap;
   padding: 10px 22px;
   text-decoration: none;
@@ -149,6 +150,5 @@ export const NavBtnLink = styled.a<NavStyleProps>`
   &:hover {
     transition: 0.2s all ease-in-out;
     background-color: #ffffff;
-    color: #010601;
-  }
+   }
 `;

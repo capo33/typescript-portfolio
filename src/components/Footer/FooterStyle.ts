@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import { BsCodeSlash } from "react-icons/bs";
-import {FaRegFileCode} from "react-icons/fa";
+ import {FaRegFileCode} from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.div`
