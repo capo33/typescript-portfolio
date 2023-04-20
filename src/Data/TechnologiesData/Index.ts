@@ -8,23 +8,23 @@ const BackEndIcons: ITechIcons[] = [
   },
   {
     id: 2,
-    img: "icons/express-js.svg",
-    alt: "MySQL",
-  },
-  {
-    id: 3,
-    img: "icons/python-svgrepo-com.svg",
+    img: "icons/python.svg",
     alt: "Python",
   },
   {
-    id: 4,
-    img: "icons/mongodb-11.svg",
+    id: 3,
+    img: "icons/mongodb.svg",
     alt: "MongoDB",
   },
   {
-    id: 5,
+    id: 4,
     img: "icons/postgresql.svg",
     alt: "PostgreSQL",
+  },
+  {
+    id: 5,
+    img: "icons/typescript.svg",
+    alt: "TypeScript",
   },
 ];
 
@@ -36,31 +36,41 @@ const FrontEndIcons: ITechIcons[] = [
   },
   {
     id: 2,
-    img: "icons/bootstrap-5-1.svg",
+    img: "icons/bootstrap.svg",
     alt: "Bootstrap",
   },
   {
     id: 3,
-    img: "icons/sass-1.svg",
+    img: "icons/sass.svg",
     alt: "Sass",
   },
   {
     id: 4,
-    img: "icons/styled-components-1.svg",
-    alt: "Styled-components",
+    img: "icons/tailwind-css.svg",
+    alt: "Tailwind CSS",
   },
   {
     id: 5,
+    img: "icons/styled-components.svg",
+    alt: "Styled-components",
+  },
+  {
+    id: 6,
     img: "icons/js.svg",
     alt: "JavaScript",
   },
   {
-    id: 6,
+    id: 7,
+    img: "icons/typescript.svg",
+    alt: "TypeScript",
+  },
+  {
+    id: 8,
     img: "icons/react.svg",
     alt: "React",
   },
   {
-    id: 7,
+    id: 9,
     img: "icons/angular.svg",
     alt: "Angular",
   },
@@ -69,7 +79,7 @@ const FrontEndIcons: ITechIcons[] = [
 const ApiIcons = [
   {
     id: 1,
-    img: "icons/Rest-api-1.svg",
+    img: "icons/Rest-api.svg",
     alt: "Rest API",
   },
   {
@@ -87,8 +97,18 @@ const ToolsIcons = [
   },
   {
     id: 2,
-    img: "icons/github-icon.svg",
+    img: "icons/github.svg",
     alt: "GitHub",
+  },
+  {
+    id: 3,
+    img: "icons/postman.svg",
+    alt: "Postman",
+  },
+  {
+    id: 4,
+    img: "icons/docker.svg",
+    alt: "Dockers",
   },
 ];
 
@@ -100,7 +120,7 @@ const GameIcons = [
   },
   {
     id: 2,
-    img: "icons/unity-69.svg",
+    img: "icons/unity.svg",
     alt: "Unity",
   },
 ];

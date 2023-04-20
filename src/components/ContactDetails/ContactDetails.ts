@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
 export const Main = styled.div`
-  min-height: 100vh;
-  padding: 5% 0 0;
+  padding: 5% 0 18%;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  @media screen and (max-width: 320px) {
-    padding-bottom: 10%;
+  @media screen and (max-width: 425px) {
+    padding-bottom: 30%;
   }
 `;
 
@@ -110,7 +109,6 @@ export const Form = styled.form`
     width: 90%;
     margin-top: 10px;
   }
-
 `;
 
 export const Input = styled.input`

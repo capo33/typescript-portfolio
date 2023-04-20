@@ -1,12 +1,15 @@
 import { Image, ImageWrapper, Main, Section } from "./ContactDetails";
 import Email from "../Email";
 import { Container } from "../../globalStyle";
-
+ 
 interface InfoSectionProps {
   img?: string;
+  topLine?: string;
+  title?: string;
 }
 
-const Contacts = ({ img }: InfoSectionProps) => {
+const Contacts = ({ img ,title, topLine}: InfoSectionProps) => {
+  console.log(img);
   return (
     <Main>
       <Container>
@@ -14,9 +17,9 @@ const Contacts = ({ img }: InfoSectionProps) => {
           <ImageWrapper>
             <Image src={img} alt='' />
           </ImageWrapper>
-          <Email />
+          <Email title={title} topLine={topLine} />
         </Section>
-      </Container>
+       </Container>
     </Main>
   );
 };

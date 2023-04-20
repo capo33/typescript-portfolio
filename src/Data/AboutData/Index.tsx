@@ -3,8 +3,6 @@ import { FaUnity, FaReact, FaPython, FaAws } from "react-icons/fa";
 import { SiTypescript, SiCsharp } from "react-icons/si";
 import { IAboutData } from "../../interfaces/AboutInterface";
 
-
-
 const AboutData: IAboutData[] = [
   {
     id: 1,
@@ -25,23 +23,19 @@ const AboutData: IAboutData[] = [
     title:
       "👍 Since I started programming, I feel like everything is getting better than ever and I have really enjoyed every moment of this journey.",
   },
+
   {
     id: 5,
-    title:
-      "😎 I'm highly motivated to continue learning and improving my craft and always looking for new challenges and opportunities to learn and grow. ",
-  },
-  {
-    id: 6,
     title:
       "😉 I use a creative approach to problem solving and I'm always looking for new ways to improve my skills and knowledge.",
   },
   {
-    id: 7,
+    id: 6,
     title:
       "🏆 I have experience working as part of a team and individually. I have successfully met deadlines on every project I’ve worked on.",
   },
   {
-    id: 8,
+    id: 7,
     title: "🚀 Now I am moving ahead with learning [ React  ",
     icon: <FaReact />,
     title1: " - AWS ",
@@ -53,12 +47,12 @@ const AboutData: IAboutData[] = [
     title3: " ].",
   },
   {
-    id: 9,
-    title: "👨‍👧‍👦 I use Unity and c# to make a games for my kids [ Unity   ",
+    id: 8,
+    title: "👨‍👧‍👦 I use Unity ",
     icon: <FaUnity />,
-    title1: " - C# ",
+    title1: " and C# ",
     icon1: <SiCsharp />,
-    title3: " ].",
+    title3: " for game development.",
   },
 ];
 

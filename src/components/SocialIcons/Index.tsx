@@ -1,21 +1,17 @@
-import { BsGithub } from "react-icons/bs";
-import { FaTwitter } from "react-icons/fa";
 import { FcPhone } from "react-icons/fc";
 import { MdEmail } from "react-icons/md";
-import { MdLocationOn } from "react-icons/md";
+import { BsGithub } from "react-icons/bs";
+import { FaTwitter } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
 
 import { ResumeData } from "../../Data/ContactData";
 import "./SocialIcons.scss";
-
+import { SocialLinks } from "../../Data/SocialLinksData/Index";
 
 const SocialIcons = () => {
   return (
     <div className='effect egeon'>
       <div className='flexy'>
-        <p>
-          <MdLocationOn style={{ textAlign: "center" }} /> {ResumeData.adresss}
-        </p>
         <p>
           <FcPhone /> {ResumeData.phone}
         </p>
@@ -24,21 +20,20 @@ const SocialIcons = () => {
         </p>
       </div>
       <div className='buttons '>
-        <a href='/' className='github' title='Add me on Github'>
-          <i>
-            <BsGithub />
-          </i>
-        </a>
-        <a href='/' className='linkedin' title='Follow me on Linked In'>
-          <i>
-            <AiFillLinkedin />
-          </i>
-        </a>
-        <a href='/' className='twitter' title='Follow me on Linked In'>
-          <i>
-            <FaTwitter />
-          </i>
-        </a>
+        {SocialLinks.map((link) => {
+          return (
+            <a
+              href={link.iconLink}
+              target='_blank'
+              rel='noreferrer'
+              className={link.className}
+              title={link.title}
+              key={link.id}
+            >
+              <i>{link.icon}</i>
+            </a>
+          );
+        })}
       </div>
     </div>
   );

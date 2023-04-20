@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-  padding: 3% 0;
-  /* height: 100vh; */
-  @media screen and (max-width: 320px) {
-    padding: 5% 0 20%;
+  padding: 3% 0  18%;
+  
+   @media screen and (max-width: 425px) {
+    padding: 5% 0 30%;
   }
 `;
 

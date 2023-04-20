@@ -29,13 +29,26 @@ $font-size: 1.1em;
     font-size: $font-size;
     overflow: hidden;
     position: relative;
+    transition: transform 0.2s linear 0s, border-radius 0.2s linear 0.2s;
 
+    &:hover {
+      transform: rotate(-90deg);
+      border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+
+      i {
+        transform: rotate(90deg);
+        transition: transform 0.2s linear 0s;
+      }
+    }
     &:last-child {
       margin-right: 0px;
     }
     i {
       position: relative;
       z-index: 3;
+      transition: transform 0.2s linear 0s;
     }
 
     &.linkedin {
@@ -47,28 +60,6 @@ $font-size: 1.1em;
     }
     &.twitter {
       background-color: $twitter;
-    }
-  }
-}
-
-/* egeon effect */
-.egeon {
-  a {
-    transition: transform 0.2s linear 0s, border-radius 0.2s linear 0.2s;
-
-    i {
-      transition: transform 0.2s linear 0s;
-    }
-
-    &:hover {
-      transform: rotate(-90deg);
-      border-top-left-radius: 50%;
-      border-top-right-radius: 50%;
-      border-bottom-left-radius: 50%;
-
-      i {
-        transform: rotate(90deg);
-      }
     }
   }
 }

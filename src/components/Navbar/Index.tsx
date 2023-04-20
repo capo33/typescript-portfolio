@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
-
 import { animateScroll as scroll } from "react-scroll";
 
 import {
@@ -15,6 +14,8 @@ import {
   NavBtn,
   NavBtnLink,
 } from "./NavbarStyle";
+import { links } from "../../Data/NavbarData/Index";
+import CV from "../../assets/pdf/Mohamed-Resume.pdf";
 
 interface NavbarProps {
   toggle: () => void;
@@ -43,47 +44,34 @@ function Navbar({ toggle }: NavbarProps) {
   };
 
   return (
-    <>
-      <IconContext.Provider value={{ color: "#fff", size: "1.5rem" }}>
-        <Nav scrollNav={scrollNav}>
-          <NavbarContainer>
-            <NavLogo to='/' onClick={toggleHome}>
-              Mo
-            </NavLogo>
-            <MobileIcon onClick={toggle}>
-              <FaBars />
-            </MobileIcon>
-            <NavMenu>
-              <NavItems>
-                <NavLinks scrollNav={scrollNav} to='/'>
-                  Home
-                </NavLinks>
-              </NavItems>
-              <NavItems>
-                <NavLinks scrollNav={scrollNav} to='/about'>
-                  About
-                </NavLinks>
-              </NavItems>
-              <NavItems>
-                <NavLinks scrollNav={scrollNav} to='/projects'>
-                  Projects
-                </NavLinks>
-              </NavItems>
-              <NavItems>
-                <NavLinks scrollNav={scrollNav} to='/contact'>
-                  Contact
-                </NavLinks>
-              </NavItems>
-            </NavMenu>
-            <NavBtn>
-              <NavBtnLink scrollNav={scrollNav} to='signin'>
-                Resume
-              </NavBtnLink>
-            </NavBtn>
-          </NavbarContainer>
-        </Nav>
-      </IconContext.Provider>
-    </>
+    <IconContext.Provider value={{ color: "#fff", size: "1.5rem" }}>
+      <Nav scrollNav={scrollNav}>
+        <NavbarContainer>
+          <NavLogo to='/' onClick={toggleHome}>
+            Mo
+          </NavLogo>
+          <MobileIcon onClick={toggle}>
+            <FaBars />
+          </MobileIcon>
+          <NavMenu>
+            {links.map((link) => {
+              return (
+                <NavItems key={link.id}>
+                  <NavLinks scrollNav={scrollNav} to={link.to}>
+                    {link.text}
+                  </NavLinks>
+                </NavItems>
+              );
+            })}
+          </NavMenu>
+          <NavBtn>
+            <NavBtnLink scrollNav={scrollNav} download href={CV}>
+              Download CV
+            </NavBtnLink>
+          </NavBtn>
+        </NavbarContainer>
+      </Nav>
+    </IconContext.Provider>
   );
 }
 

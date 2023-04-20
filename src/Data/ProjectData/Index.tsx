@@ -289,63 +289,63 @@ export const portfolioProjects: IProject[] = [
       },
     ],
   },
-  {
-    id: uuid,
-    tag: "Javascript",
-    image: "/image/speaker.png",
-    title: "Text Speaker",
-    description: "JavaScript",
-    links: [
-      {
-        id: uuid,
-        link: "https://capo33.github.io/Text-to-Speech/",
-        icon: <FcGlobe style={{ fontSize: "30px" }} />,
-      },
-      {
-        id: uuid,
-        link: "https://github.com/capo33/Text-to-Speech",
-        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
-      },
-    ],
-  },
-  {
-    id: uuid,
-    tag: "Javascript",
-    image: "image/dice-game.jpg",
-    title: "Dice Game",
-    description: "Javascript",
-    links: [
-      {
-        id: uuid,
-        link: "https://capo33.github.io/dice-game/",
-        icon: <FcGlobe style={{ fontSize: "30px" }} />,
-      },
-      {
-        id: uuid,
-        link: "https://github.com/capo33/dice-game.git",
-        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
-      },
-    ],
-  },
-  {
-    id: uuid,
-    tag: "Javascript",
-    image: "image/memory.png",
-    title: "Memory Game",
-    description: "Javascript",
-    links: [
-      {
-        id: uuid,
-        link: "https://capo33.github.io/memory-game/",
-        icon: <FcGlobe style={{ fontSize: "30px" }} />,
-      },
-      {
-        id: uuid,
-        link: "https://github.com/capo33/memory-game",
-        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
-      },
-    ],
-  },
+  // {
+  //   id: uuid,
+  //   tag: "Javascript",
+  //   image: "/image/speaker.png",
+  //   title: "Text Speaker",
+  //   description: "JavaScript",
+  //   links: [
+  //     {
+  //       id: uuid,
+  //       link: "https://capo33.github.io/Text-to-Speech/",
+  //       icon: <FcGlobe style={{ fontSize: "30px" }} />,
+  //     },
+  //     {
+  //       id: uuid,
+  //       link: "https://github.com/capo33/Text-to-Speech",
+  //       icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: uuid,
+  //   tag: "Javascript",
+  //   image: "image/dice-game.jpg",
+  //   title: "Dice Game",
+  //   description: "Javascript",
+  //   links: [
+  //     {
+  //       id: uuid,
+  //       link: "https://capo33.github.io/dice-game/",
+  //       icon: <FcGlobe style={{ fontSize: "30px" }} />,
+  //     },
+  //     {
+  //       id: uuid,
+  //       link: "https://github.com/capo33/dice-game.git",
+  //       icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: uuid,
+  //   tag: "Javascript",
+  //   image: "image/memory.png",
+  //   title: "Memory Game",
+  //   description: "Javascript",
+  //   links: [
+  //     {
+  //       id: uuid,
+  //       link: "https://capo33.github.io/memory-game/",
+  //       icon: <FcGlobe style={{ fontSize: "30px" }} />,
+  //     },
+  //     {
+  //       id: uuid,
+  //       link: "https://github.com/capo33/memory-game",
+  //       icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+  //     },
+  //   ],
+  // },
 
   {
     id: uuid,

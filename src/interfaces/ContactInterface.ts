@@ -2,7 +2,7 @@ export interface IContactData {
   send: string;
   call: string;
   home: string;
-  adresss: string;
+  address: string;
   phone: string;
   email: string;
 }

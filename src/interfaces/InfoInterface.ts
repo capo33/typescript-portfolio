@@ -13,7 +13,7 @@ export interface IInfos {
   img?: any;
   alt?: string;
   start?: string;
-  topPaddding?: boolean;
+  topPadding?: boolean;
   bigHeight?: boolean;
   big?: boolean;
   title?: string;

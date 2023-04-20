@@ -15,8 +15,8 @@ export const InfoObjOne: IInfos = {
   imgStart: "",
   img: require("../../assets/svgs/version_control.svg").default,
   start: "",
-  topPaddding: false,
-  bigHeight: false,
+  topPadding: false,
+  bigHeight: true,
 };
 
 export const InfoObjTwo: IInfos = {
@@ -35,7 +35,7 @@ export const InfoObjTwo: IInfos = {
   img: require("../../assets/svgs/percentages.svg").default,
   alt: "",
   start: "",
-  topPaddding: true,
+  topPadding: true,
   bigHeight: false,
 };
 

@@ -9,7 +9,7 @@ import Projects from "./pages/Projects/Index";
 import ScrollToTop from "./components/ScrollToTop/Index";
 import Contact from "./pages/Contact/Index";
 import Footer from "./components/Footer/Index";
-// import 'bootstrap/dist/css/bootstrap.min.css';
+ // import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -26,8 +26,9 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
-      </Routes>
-      <Footer />
+       </Routes>
+       <Footer />
+      
     </Router>
   );
 }

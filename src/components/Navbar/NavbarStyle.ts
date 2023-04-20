@@ -89,7 +89,7 @@ export const NavBtn = styled.div`
     display: none;
   }
 `;
-export const NavBtnLink = styled(LinkR)<NavStyleProps>`
+export const NavBtnLink = styled.a<NavStyleProps>`
   border-radius: 50px;
   background-color: ${({ scrollNav }) => (scrollNav ? "#222222" : "#22A39F")};
   color: ${({ scrollNav }) => (scrollNav ? "#FFFFFF" : "#222222")};
@@ -106,4 +106,6 @@ export const NavBtnLink = styled(LinkR)<NavStyleProps>`
     background-color: #ffffff;
     color: #010601;
   }
+
+
 `;

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 
-import { Container, Button } from "../../globalStyle";
 import {
   InfoSec,
   InfoRow,
@@ -12,6 +11,7 @@ import {
   ImgWrapper,
   Img,
 } from "./InfoStyle";
+import { Container, Button } from "../../globalStyle";
 
 interface InfoSectionProps {
   id?: string;
@@ -28,8 +28,6 @@ interface InfoSectionProps {
   alt?: string;
   imgStart?: string;
   start?: string;
-  topPadding?: boolean;
-  bigHeight?: boolean;
 }
 
 function Info({

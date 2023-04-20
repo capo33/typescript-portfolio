@@ -12,8 +12,6 @@ import { Button } from "../../globalStyle";
 import SocialIcons from "../SocialIcons/Index";
 import { FormData } from "../../interfaces/FormInterface";
 
- 
-
 interface InfoSectionProps {
   topLine?: string;
   title?: string;

@@ -8,16 +8,25 @@ interface InfoStyleProps {
   start?: string;
   lightTopLine?: boolean;
   lightTextDesc?: boolean;
+  topPadding?: boolean;
+  bigHeight?: boolean;
+
 }
 
 export const InfoSec = styled.div<InfoStyleProps>`
   color: #fff;
-  /* padding: 160px 0; */
+  padding: 160px 0;
   display:flex ;
   justify-content: center ;
   align-items:center ;
-  height:100vh ;
+   /* padding: ${({ topPadding }) => (topPadding && '160px 0' )}; */
+  /* height: ${({ bigHeight }) => (bigHeight && '100vh' )}; */
   background: ${({ lightBg }) => (lightBg ? '#FFFFFF' : '#222222')};
+
+  @media screen and (min-width: 1024px) {
+    /* height:100vh ;
+    padding: 0 */
+  }
 `;
 
 export const InfoRow = styled.div<InfoStyleProps>`
