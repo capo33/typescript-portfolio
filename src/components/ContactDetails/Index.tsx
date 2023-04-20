@@ -15,7 +15,7 @@ const Contacts = ({ img ,title, topLine}: InfoSectionProps) => {
       <Container>
         <Section>
           <ImageWrapper>
-            <Image src={img} alt='' />
+            <Image src={img} alt={title} />
           </ImageWrapper>
           <Email title={title} topLine={topLine} />
         </Section>

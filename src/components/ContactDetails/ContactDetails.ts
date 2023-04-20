@@ -74,11 +74,11 @@ export const Image = styled.img`
 
   @media screen and (max-width: 1200px) and (min-width: 900px) {
     height: 150px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
   }
   @media screen and (max-width: 600px) {
-    /* height: 150px;
-    margin-left: 0px; */
+    height: 150px;
+    margin-left: 0px;
     /* margin-top: -40px; */
   }
 `;
