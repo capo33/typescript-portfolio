@@ -15,7 +15,8 @@ interface InfoStyleProps {
 
 export const InfoSec = styled.div<InfoStyleProps>`
   color: #fff;
-  padding: 160px 0;
+  /* padding: 160px 0; */
+  height : 100vh;
   display:flex ;
   justify-content: center ;
   align-items:center ;
@@ -23,9 +24,9 @@ export const InfoSec = styled.div<InfoStyleProps>`
   /* height: ${({ bigHeight }) => (bigHeight && '100vh' )}; */
   background: ${({ lightBg }) => (lightBg ? '#FFFFFF' : '#222222')};
 
-  @media screen and (min-width: 1024px) {
-    /* height:100vh ;
-    padding: 0 */
+  @media screen and (max-width: 768px) {
+    padding: 160px 0;
+    height:100% ;
     
   }
   @media (max-width: 768px) {

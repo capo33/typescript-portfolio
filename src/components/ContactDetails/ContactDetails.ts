@@ -35,7 +35,7 @@ export const Section = styled.section`
 
 export const ImageWrapper = styled.div`
   width: 50%;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   position: relative;
@@ -43,7 +43,7 @@ export const ImageWrapper = styled.div`
   &::before {
     content: "";
     position: absolute;
-    height: 100%;
+    height: 50vh;
     width: 100%;
     background-color: #00ffca;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
