@@ -30,7 +30,7 @@ export const InfoObjTwo: IInfos = {
   topLine: "Coder",
   headLine: "Full-stack",
   description:
-    "Since I work on the front-end, back-end, database, and have experience debugging web applications or websites, I have the ability to design complete applications and websites",
+    "Since I work on the front-end, back-end, database, and have experience debugging web applications or websites, I have the ability to design complete web applications and websites",
   buttonLabel: "My Works",
   imgStart: "start",
   img: require("../../assets/images/while-coding.gif"),
