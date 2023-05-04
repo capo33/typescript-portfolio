@@ -17,7 +17,7 @@ import { Container } from "../../globalStyle";
 import { IProject } from "../../interfaces/ProjectsInterface";
 import { portfolioProjects } from "../../Data/ProjectData/Index";
 
-import "./tester.css";
+import "./projects.css";
 
 const ProjectsDetails = () => {
   const [Items, setItems] = React.useState<IProject[]>(portfolioProjects);

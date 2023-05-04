@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const Section = styled.section`
   padding: 3% 0 18%;
@@ -25,7 +25,7 @@ export const MenuBarItems = styled.div`
   text-decoration: none;
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #22a39f;
+    background: #222222;
     color: #fff;
   }
 
@@ -108,11 +108,3 @@ export const Links = styled.div`
   display: flex;
   justify-content: space-around;
 `;
-
-// active class
-export const Active = css`
-  background: #22a39f;
-  color: #fff;
-  transition: all 0.2s ease-in-out;
-`;
-
