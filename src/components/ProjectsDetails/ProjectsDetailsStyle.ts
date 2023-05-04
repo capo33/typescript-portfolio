@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Section = styled.section`
-  padding: 3% 0  18%;
-  
-   @media screen and (max-width: 425px) {
+  padding: 3% 0 18%;
+
+  @media screen and (max-width: 425px) {
     padding: 5% 0 30%;
   }
 `;
@@ -108,3 +108,11 @@ export const Links = styled.div`
   display: flex;
   justify-content: space-around;
 `;
+
+// active class
+export const Active = css`
+  background: #22a39f;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+`;
+

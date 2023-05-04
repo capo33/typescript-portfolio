@@ -1,7 +1,5 @@
 import React from "react";
 
-import { portfolioProjects } from "../../Data/ProjectData/Index";
-import { Container } from "../../globalStyle";
 import {
   Section,
   MenuBar,
@@ -15,26 +13,16 @@ import {
   Description,
   Links,
 } from "./ProjectsDetailsStyle";
+import { Container } from "../../globalStyle";
+import { IProject } from "../../interfaces/ProjectsInterface";
+import { portfolioProjects } from "../../Data/ProjectData/Index";
 
-interface ILinks {
-  id: Function;
-  link: string;
-  icon: JSX.Element;
-}
-
-export interface IProject {
-  id: Function;
-  tag: string;
-  image: string;
-  title: string;
-  description: string;
-  links: ILinks[];
-}
+import "./tester.css";
 
 const ProjectsDetails = () => {
   const [Items, setItems] = React.useState<IProject[]>(portfolioProjects);
   console.log(Items);
-
+  const [active, setActive] = React.useState<string>("All");
   const handleFilter = (e: React.MouseEvent<HTMLSpanElement>) => {
     const target = e.target as HTMLSpanElement;
     const value = target.innerText;
@@ -47,20 +35,52 @@ const ProjectsDetails = () => {
       return curElem.tag === value;
     });
     setItems(updatedItems);
+    setActive(value);
   };
 
   return (
     <Section>
       <Container>
         <MenuBar>
-          <MenuBarItems onClick={() => setItems(portfolioProjects)}>
+          <MenuBarItems
+            className={active === "All" ? "active" : ""}
+            onClick={() => {
+              setItems(portfolioProjects);
+              setActive("All");
+            }}
+          >
             All
           </MenuBarItems>
-          <MenuBarItems onClick={handleFilter}>School</MenuBarItems>
-          <MenuBarItems onClick={handleFilter}>Javascript</MenuBarItems>
-          <MenuBarItems onClick={handleFilter}>Front-end</MenuBarItems>
-          <MenuBarItems onClick={handleFilter}>Mern-stack</MenuBarItems>
-          <MenuBarItems onClick={handleFilter}>Experimental</MenuBarItems>
+          <MenuBarItems
+            className={active === "School" ? "active" : ""}
+            onClick={handleFilter}
+          >
+            School
+          </MenuBarItems>
+          <MenuBarItems
+            className={active === "Javascript" ? "active" : ""}
+            onClick={handleFilter}
+          >
+            Javascript
+          </MenuBarItems>
+          <MenuBarItems
+            className={active === "Front-end" ? "active" : ""}
+            onClick={handleFilter}
+          >
+            Front-end
+          </MenuBarItems>
+          <MenuBarItems
+            className={active === "Mern-stack" ? "active" : ""}
+            onClick={handleFilter}
+          >
+            Mern-stack
+          </MenuBarItems>
+          <MenuBarItems
+            className={active === "Experimental" ? "active" : ""}
+            onClick={handleFilter}
+          >
+            Experimental
+          </MenuBarItems>
         </MenuBar>
 
         <Row>
