@@ -2,21 +2,7 @@ import { GoMarkGithub } from "react-icons/go";
 import { FcGlobe } from "react-icons/fc";
 
 import { uuid } from "../../utils/uuid";
-
-interface ILinks {
-  id: Function;
-  link: string;
-  icon: JSX.Element;
-}
-
-export interface IProject {
-  id: Function;
-  tag: string;
-  image: string;
-  title: string;
-  description: string;
-  links: ILinks[];
-}
+import { IProject } from "../../interfaces/ProjectsInterface";
 
 export const portfolioProjects: IProject[] = [
   {
@@ -149,6 +135,20 @@ export const portfolioProjects: IProject[] = [
       {
         id: uuid,
         link: "https://github.com/capo33/animazon-client",
+        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+      },
+    ],
+  },
+  {
+    id: uuid,
+    tag: "Mern-stack",
+    image: "image/yelpclone.png",
+    title: "Yelp Clone",
+    description: "React - NodeJS - PostgreSQL - TypeScript",
+    links: [
+      {
+        id: uuid,
+        link: "https://github.com/capo33/yelp_clone",
         icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
       },
     ],
