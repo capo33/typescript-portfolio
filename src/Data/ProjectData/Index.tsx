@@ -47,25 +47,6 @@ export const portfolioProjects: IProject[] = [
   {
     id: uuid,
     tag: "Front-end",
-    image: "image/fakeshop.png",
-    title: "Fake Shop",
-    description: "React - Redux - Javascript - Rest API",
-    links: [
-      {
-        id: uuid,
-        link: "https://capo33.github.io/fakeshop/",
-        icon: <FcGlobe style={{ fontSize: "30px" }} />,
-      },
-      {
-        id: uuid,
-        link: "https://github.com/capo33/fakeshop",
-        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
-      },
-    ],
-  },
-  {
-    id: uuid,
-    tag: "Front-end",
     image: "image/delta.png",
     title: "Delta Company",
     description: "React - Styled-components - Javascript",
@@ -78,6 +59,25 @@ export const portfolioProjects: IProject[] = [
       {
         id: uuid,
         link: "https://github.com/capo33/react-smooth-scroll",
+        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+      },
+    ],
+  },
+  {
+    id: uuid,
+    tag: "Front-end",
+    image: "image/fakeshop.png",
+    title: "Fake Shop",
+    description: "React - Redux - Javascript - Rest API",
+    links: [
+      {
+        id: uuid,
+        link: "https://capo33.github.io/fakeshop/",
+        icon: <FcGlobe style={{ fontSize: "30px" }} />,
+      },
+      {
+        id: uuid,
+        link: "https://github.com/capo33/fakeshop",
         icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
       },
     ],
@@ -195,6 +195,25 @@ export const portfolioProjects: IProject[] = [
   {
     id: uuid,
     tag: "Front-end",
+    image: "image/rick-and-morty2.png",
+    title: "Rick and Morty",
+    description: "React - Apollo-Client - TypeScript",
+    links: [
+      {
+        id: uuid,
+        link: "https://rick-and-morty-apollo-client.onrender.com/",
+        icon: <FcGlobe style={{ fontSize: "30px" }} />,
+      },
+      {
+        id: uuid,
+        link: "https://github.com/capo33/rick-and-morty-apollo-clien",
+        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+      },
+    ],
+  },
+  {
+    id: uuid,
+    tag: "Front-end",
     image: "image/star-wars.png",
     title: "Star Wars",
     description: "React - UseQuery - Rest API",
@@ -212,25 +231,7 @@ export const portfolioProjects: IProject[] = [
     ],
   },
 
-  {
-    id: uuid,
-    tag: "Front-end",
-    image: "image/keeper.png",
-    title: "Note Keeper",
-    description: "React - TypeScript",
-    links: [
-      {
-        id: uuid,
-        link: "https://note-keeper-ts.netlify.app/",
-        icon: <FcGlobe style={{ fontSize: "30px" }} />,
-      },
-      {
-        id: uuid,
-        link: "https://github.com/capo33/Note-keeper-ts",
-        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
-      },
-    ],
-  },
+  
 
   {
     id: uuid,
@@ -247,25 +248,6 @@ export const portfolioProjects: IProject[] = [
       {
         id: uuid,
         link: "https://github.com/capo33/search-feature",
-        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
-      },
-    ],
-  },
-  {
-    id: uuid,
-    tag: "Front-end",
-    image: "image/todo.png",
-    title: "Todo App",
-    description: "React - JavaScript",
-    links: [
-      {
-        id: uuid,
-        link: "https://capo33.github.io/react-todo-app/",
-        icon: <FcGlobe style={{ fontSize: "30px" }} />,
-      },
-      {
-        id: uuid,
-        link: "https://github.com/capo33/react-todo-app.git",
         icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
       },
     ],
@@ -461,21 +443,59 @@ export const portfolioProjects: IProject[] = [
       },
     ],
   },
+  // {
+  //   id: uuid,
+  //   tag: "Experimental",
+  //   image: "image/crazy-button.jpg",
+  //   title: "Crazy Buttons",
+  //   description: "JavaScript",
+  //   links: [
+  //     {
+  //       id: uuid,
+  //       link: "https://capo33.github.io/crazy-button/",
+  //       icon: <FcGlobe style={{ fontSize: "30px" }} />,
+  //     },
+  //     {
+  //       id: uuid,
+  //       link: "https://github.com/capo33/crazy-button.git",
+  //       icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+  //     },
+  //   ],
+  // },
   {
     id: uuid,
     tag: "Experimental",
-    image: "image/crazy-button.jpg",
-    title: "Crazy Buttons",
-    description: "JavaScript",
+    image: "image/keeper.png",
+    title: "Note Keeper",
+    description: "React - TypeScript",
     links: [
       {
         id: uuid,
-        link: "https://capo33.github.io/crazy-button/",
+        link: "https://note-keeper-ts.netlify.app/",
         icon: <FcGlobe style={{ fontSize: "30px" }} />,
       },
       {
         id: uuid,
-        link: "https://github.com/capo33/crazy-button.git",
+        link: "https://github.com/capo33/Note-keeper-ts",
+        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+      },
+    ],
+  },
+  {
+    id: uuid,
+    tag: "Experimental",
+    image: "image/todo.png",
+    title: "Todo App",
+    description: "React - JavaScript",
+    links: [
+      {
+        id: uuid,
+        link: "https://capo33.github.io/react-todo-app/",
+        icon: <FcGlobe style={{ fontSize: "30px" }} />,
+      },
+      {
+        id: uuid,
+        link: "https://github.com/capo33/react-todo-app.git",
         icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
       },
     ],
