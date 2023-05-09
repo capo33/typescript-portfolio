@@ -123,6 +123,25 @@ export const portfolioProjects: IProject[] = [
   {
     id: uuid,
     tag: "Mern-stack",
+    image: "image/corner_blog.png",
+    title: "Corner Blog",
+    description: "React - NodeJS - MongoDB - TypeScript",
+    links: [
+      {
+        id: uuid,
+        link: "https://corner-blog.onrender.com/",
+        icon: <FcGlobe style={{ fontSize: "30px" }} />,
+      },
+      {
+        id: uuid,
+        link: "https://github.com/capo33/blog-backend",
+        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+      },
+    ],
+  },
+  {
+    id: uuid,
+    tag: "Mern-stack",
     image: "image/animazon.png",
     title: "Animazon",
     description: "React - GrapghQL - Apollo - Javascript",
