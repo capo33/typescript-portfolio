@@ -142,6 +142,26 @@ export const portfolioProjects: IProject[] = [
   {
     id: uuid,
     tag: "Mern-stack",
+    image: "image/social-media.png",
+    title: "Social Media",
+    description: "React - NodeJS - MongoDB - TypeScript",
+    links: [
+      
+      {
+        id: uuid,
+        link: "https://github.com/capo33/social-media-backend",
+        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+      },
+      {
+        id: uuid,
+        link: "https://github.com/capo33/social-media-frontend",
+        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+      },
+    ],
+  },
+  {
+    id: uuid,
+    tag: "Mern-stack",
     image: "image/animazon.png",
     title: "Animazon",
     description: "React - GrapghQL - Apollo - Javascript",
