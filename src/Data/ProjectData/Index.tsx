@@ -125,7 +125,7 @@ export const portfolioProjects: IProject[] = [
     tag: "Mern-stack",
     image: "image/corner_blog.png",
     title: "Corner Blog",
-    description: "React - NodeJS - MongoDB - TypeScript",
+    description: "React - NodeJS - MongoDB - TypeScript - TailwindCSS",
     links: [
       {
         id: uuid,
