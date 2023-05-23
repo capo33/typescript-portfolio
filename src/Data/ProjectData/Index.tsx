@@ -166,7 +166,11 @@ export const portfolioProjects: IProject[] = [
     title: "Rental Car",
     description: "React - NodeJS - MongoDB - TypeScript - Stripe",
     links: [
-      
+      {
+        id: uuid,
+        link: "https://car-rental-mern-stack.netlify.app",
+        icon: <FcGlobe style={{ fontSize: "30px" }} />,
+      },
       {
         id: uuid,
         link: "https://github.com/capo33/rental-car-backend",
