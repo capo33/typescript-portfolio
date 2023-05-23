@@ -162,6 +162,21 @@ export const portfolioProjects: IProject[] = [
   {
     id: uuid,
     tag: "Mern-stack",
+    image: "image/main.png",
+    title: "Rental Car",
+    description: "React - NodeJS - MongoDB - TypeScript - Stripe",
+    links: [
+      
+      {
+        id: uuid,
+        link: "https://github.com/capo33/rental-car-backend",
+        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+      },
+    ],
+  },
+  {
+    id: uuid,
+    tag: "Mern-stack",
     image: "image/animazon.png",
     title: "Animazon",
     description: "React - GrapghQL - Apollo - Javascript",
