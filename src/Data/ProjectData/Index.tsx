@@ -142,19 +142,18 @@ export const portfolioProjects: IProject[] = [
   {
     id: uuid,
     tag: "Mern-stack",
-    image: "image/social-media.png",
-    title: "Social Media",
-    description: "React - NodeJS - MongoDB - TypeScript",
+    image: "image/Q-Shop.png",
+    title: "Rental Car",
+    description: "React - NodeJS - MongoDB - Express - Paypal",
     links: [
-      
       {
         id: uuid,
-        link: "https://github.com/capo33/social-media-backend",
-        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+        link: "https://q-shop.onrender.com/",
+        icon: <FcGlobe style={{ fontSize: "30px" }} />,
       },
       {
         id: uuid,
-        link: "https://github.com/capo33/social-media-frontend",
+        link: "https://github.com/capo33/Q_shop",
         icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
       },
     ],
@@ -174,6 +173,26 @@ export const portfolioProjects: IProject[] = [
       {
         id: uuid,
         link: "https://github.com/capo33/rental-car-backend",
+        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+      },
+    ],
+  },
+  {
+    id: uuid,
+    tag: "Mern-stack",
+    image: "image/social-media.png",
+    title: "Social Media",
+    description: "React - NodeJS - MongoDB - TypeScript",
+    links: [
+      
+      {
+        id: uuid,
+        link: "https://github.com/capo33/social-media-backend",
+        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+      },
+      {
+        id: uuid,
+        link: "https://github.com/capo33/social-media-frontend",
         icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
       },
     ],
