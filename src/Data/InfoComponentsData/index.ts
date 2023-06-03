@@ -10,7 +10,7 @@ export const InfoObjOne: IInfos = {
   topLine: "Mohamed",
   headLine: "Software Developer & Web Designer",
   description:
-    "I am a full-stack developer based in Finland with 3+ years of programming experience",
+    "I am a full-stack developer based in Finland with 3+ years of coding experience and 1 year of work experience",
   buttonLabel: "More Details",
   imgStart: "",
   img: require("../../assets/images/animation-api.gif"),
