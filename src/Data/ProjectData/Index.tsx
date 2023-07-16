@@ -120,21 +120,40 @@ export const portfolioProjects: IProject[] = [
       },
     ],
   },
+  // {
+  //   id: uuid,
+  //   tag: "Mern-stack",
+  //   image: "image/corner_blog.png",
+  //   title: "Corner Blog",
+  //   description: "React - NodeJS - MongoDB - TypeScript - TailwindCSS",
+  //   links: [
+  //     {
+  //       id: uuid,
+  //       link: "https://corner-blog.onrender.com/",
+  //       icon: <FcGlobe style={{ fontSize: "30px" }} />,
+  //     },
+  //     {
+  //       id: uuid,
+  //       link: "https://github.com/capo33/blog-backend",
+  //       icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+  //     },
+  //   ],
+  // },
   {
     id: uuid,
     tag: "Mern-stack",
-    image: "image/corner_blog.png",
-    title: "Corner Blog",
+    image: "image/cooking-app.png",
+    title: "Recipes App",
     description: "React - NodeJS - MongoDB - TypeScript - TailwindCSS",
     links: [
       {
         id: uuid,
-        link: "https://corner-blog.onrender.com/",
+        link: "https://cooking-app.onrender.com",
         icon: <FcGlobe style={{ fontSize: "30px" }} />,
       },
       {
         id: uuid,
-        link: "https://github.com/capo33/blog-backend",
+        link: "https://github.com/capo33/cooking-blog",
         icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
       },
     ],
@@ -230,25 +249,25 @@ export const portfolioProjects: IProject[] = [
       },
     ],
   },
-  {
-    id: uuid,
-    tag: "Mern-stack",
-    image: "image/tour-app.png",
-    title: "Tour App",
-    description: "React - ReduxToolkit - NodeJS - MongoDB",
-    links: [
-      {
-        id: uuid,
-        link: "https://mern-tour-app.netlify.app/",
-        icon: <FcGlobe style={{ fontSize: "30px" }} />,
-      },
-      {
-        id: uuid,
-        link: "https://github.com/capo33/tour-app-client",
-        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
-      },
-    ],
-  },
+  // {
+  //   id: uuid,
+  //   tag: "Mern-stack",
+  //   image: "image/tour-app.png",
+  //   title: "Tour App",
+  //   description: "React - ReduxToolkit - NodeJS - MongoDB",
+  //   links: [
+  //     {
+  //       id: uuid,
+  //       link: "https://mern-tour-app.netlify.app/",
+  //       icon: <FcGlobe style={{ fontSize: "30px" }} />,
+  //     },
+  //     {
+  //       id: uuid,
+  //       link: "https://github.com/capo33/tour-app-client",
+  //       icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+  //     },
+  //   ],
+  // },
 
   {
     id: uuid,
