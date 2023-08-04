@@ -142,18 +142,18 @@ export const portfolioProjects: IProject[] = [
   {
     id: uuid,
     tag: "Mern-stack",
-    image: "image/cooking-app.png",
+    image: "image/home-page.png",
     title: "Recipes App",
-    description: "React - NodeJS - MongoDB - TypeScript - TailwindCSS",
+    description: "React - NodeJS - MongoDB - TypeScript - Bootstrap",
     links: [
       {
         id: uuid,
-        link: "https://cooking-app.onrender.com",
+        link: "https://yupfood.onrender.com/",
         icon: <FcGlobe style={{ fontSize: "30px" }} />,
       },
       {
         id: uuid,
-        link: "https://github.com/capo33/cooking-blog",
+        link: "https://github.com/capo33/recipes-blog",
         icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
       },
     ],
