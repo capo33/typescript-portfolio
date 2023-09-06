@@ -142,6 +142,25 @@ export const portfolioProjects: IProject[] = [
   {
     id: uuid,
     tag: "Mern-stack",
+    image: "image/social-network.png",
+    title: "Social Network",
+    description: "React - NodeJS - MongoDB - TypeScript - Material-ui",
+    links: [
+      {
+        id: uuid,
+        link: "https://social-network-t5pv.onrender.com/",
+        icon: <FcGlobe style={{ fontSize: "30px" }} />,
+      },
+      {
+        id: uuid,
+        link: "https://github.com/capo33/social-app-v2",
+        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+      },
+    ],
+  },
+  {
+    id: uuid,
+    tag: "Mern-stack",
     image: "image/home-page.png",
     title: "Recipes App",
     description: "React - NodeJS - MongoDB - TypeScript - Bootstrap",
