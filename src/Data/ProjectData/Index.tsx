@@ -162,7 +162,7 @@ export const portfolioProjects: IProject[] = [
     id: uuid,
     tag: "Mern-stack",
     image: "image/home-page.png",
-    title: "Recipes App",
+    title: "Yupfood",
     description: "React - NodeJS - MongoDB - TypeScript - Bootstrap",
     links: [
       {
