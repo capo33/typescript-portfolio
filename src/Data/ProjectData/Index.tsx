@@ -199,6 +199,25 @@ export const portfolioProjects: IProject[] = [
   {
     id: uuid,
     tag: "Mern-stack",
+    image: "image/homeScreen.png",
+    title: "Second Hand Store",
+    description: "React - GrapghQL - Apollo - Javascript",
+    links: [
+      {
+        id: uuid,
+        link: "https://second-hand-store.netlify.app/",
+        icon: <FcGlobe style={{ fontSize: "30px" }} />,
+      },
+      {
+        id: uuid,
+        link: "https://github.com/capo33/second_hand-frontend",
+        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+      },
+    ],
+  },
+  {
+    id: uuid,
+    tag: "Mern-stack",
     image: "image/main.png",
     title: "Rental Car",
     description: "React - NodeJS - MongoDB - TypeScript - Stripe",
@@ -231,25 +250,6 @@ export const portfolioProjects: IProject[] = [
       {
         id: uuid,
         link: "https://github.com/capo33/social-media-frontend",
-        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
-      },
-    ],
-  },
-  {
-    id: uuid,
-    tag: "Mern-stack",
-    image: "image/homeScreen.png",
-    title: "Second Hand Store",
-    description: "React - GrapghQL - Apollo - Javascript",
-    links: [
-      {
-        id: uuid,
-        link: "https://second-hand-store.netlify.app/",
-        icon: <FcGlobe style={{ fontSize: "30px" }} />,
-      },
-      {
-        id: uuid,
-        link: "https://github.com/capo33/second_hand-frontend",
         icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
       },
     ],
