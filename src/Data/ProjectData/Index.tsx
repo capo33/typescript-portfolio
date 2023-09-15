@@ -218,25 +218,6 @@ export const portfolioProjects: IProject[] = [
   {
     id: uuid,
     tag: "Mern-stack",
-    image: "image/main.png",
-    title: "Rental Car",
-    description: "React - NodeJS - MongoDB - TypeScript - Stripe",
-    links: [
-      {
-        id: uuid,
-        link: "https://car-rental-mern-stack.netlify.app",
-        icon: <FcGlobe style={{ fontSize: "30px" }} />,
-      },
-      {
-        id: uuid,
-        link: "https://github.com/capo33/rental-car-backend",
-        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
-      },
-    ],
-  },
-  {
-    id: uuid,
-    tag: "Mern-stack",
     image: "image/social-media.png",
     title: "Social Media",
     description: "React - NodeJS - MongoDB - TypeScript",
@@ -250,6 +231,25 @@ export const portfolioProjects: IProject[] = [
       {
         id: uuid,
         link: "https://github.com/capo33/social-media-frontend",
+        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+      },
+    ],
+  },
+  {
+    id: uuid,
+    tag: "Mern-stack",
+    image: "image/main.png",
+    title: "Rental Car",
+    description: "React - NodeJS - MongoDB - TypeScript - Stripe",
+    links: [
+      {
+        id: uuid,
+        link: "https://car-rental-mern-stack.netlify.app",
+        icon: <FcGlobe style={{ fontSize: "30px" }} />,
+      },
+      {
+        id: uuid,
+        link: "https://github.com/capo33/rental-car-backend",
         icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
       },
     ],
