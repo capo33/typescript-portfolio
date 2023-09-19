@@ -39,8 +39,8 @@ function Footer() {
           {/* Languages Data */}
           {languagesIconsData.map((item) => {
             return (
-              <FooterLinkItems>
-                <FooterLinkTitle key={item.title}>{item.title}</FooterLinkTitle>
+              <FooterLinkItems key={item.title}>
+                <FooterLinkTitle>{item.title}</FooterLinkTitle>
                 {item.links.map((link) => {
                   return (
                     <FooterLink to={link.link} key={link.title}>

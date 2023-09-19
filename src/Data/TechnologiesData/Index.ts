@@ -12,19 +12,19 @@ const BackEndIcons: ITechIcons[] = [
     alt: "Python",
   },
   {
-    id: 5,
+    id: 3,
     img: "icons/typescript.svg",
     alt: "TypeScript",
   },
 ];
 const DatabaseIcons: ITechIcons[] = [
   {
-    id: 3,
+    id: 1,
     img: "icons/mongodb.svg",
     alt: "MongoDB",
   },
   {
-    id: 4,
+    id: 2,
     img: "icons/postgresql.svg",
     alt: "PostgreSQL",
   },
