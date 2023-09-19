@@ -78,7 +78,7 @@ const FrontEndIcons: ITechIcons[] = [
   },
 ];
 
-const ApiIcons = [
+const ApiIcons : ITechIcons[]= [
   {
     id: 1,
     img: "icons/Rest-api.svg",
@@ -91,7 +91,7 @@ const ApiIcons = [
   },
 ];
 
-const ToolsIcons = [
+const ToolsIcons : ITechIcons[]= [
   {
     id: 1,
     img: "icons/git.svg",
@@ -114,7 +114,7 @@ const ToolsIcons = [
   },
 ];
 
-const GameIcons = [
+const GameIcons : ITechIcons[]= [
   {
     id: 1,
     img: "icons/c-sharp.svg",
@@ -127,7 +127,7 @@ const GameIcons = [
   },
 ];
 
-const CloudIcon = [
+const CloudIcon : ITechIcons[]= [
   {
     id: 1,
     img: "icons/aws.svg",
