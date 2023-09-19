@@ -12,6 +12,13 @@ const BackEndIcons: ITechIcons[] = [
     alt: "Python",
   },
   {
+    id: 5,
+    img: "icons/typescript.svg",
+    alt: "TypeScript",
+  },
+];
+const DatabaseIcons: ITechIcons[] = [
+  {
     id: 3,
     img: "icons/mongodb.svg",
     alt: "MongoDB",
@@ -20,11 +27,6 @@ const BackEndIcons: ITechIcons[] = [
     id: 4,
     img: "icons/postgresql.svg",
     alt: "PostgreSQL",
-  },
-  {
-    id: 5,
-    img: "icons/typescript.svg",
-    alt: "TypeScript",
   },
 ];
 
@@ -134,6 +136,7 @@ const CloudIcon = [
 ];
 export {
   BackEndIcons,
+  DatabaseIcons,
   FrontEndIcons,
   ApiIcons,
   ToolsIcons,
