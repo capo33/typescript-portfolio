@@ -39,6 +39,21 @@ const DatabaseIcons: ITechIcons[] = [
     img: "icons/postgresql.svg",
     alt: "PostgreSQL",
   },
+  {
+    id: 3,
+    img: "icons/Rest-api.svg",
+    alt: "Rest API",
+  },
+  {
+    id: 4,
+    img: "icons/graphql.svg",
+    alt: "GraphQL",
+  },
+  {
+    id: 5,
+    img: "icons/apollographql.svg",
+    alt: "Apollo",
+  },
 ];
 
 const FrontEndIcons: ITechIcons[] = [
@@ -92,19 +107,7 @@ const StylesIcons: ITechIcons[] = [
   },
 ];
 
-const ApiIcons : ITechIcons[]= [
-  {
-    id: 1,
-    img: "icons/Rest-api.svg",
-    alt: "Rest API",
-  },
-  {
-    id: 2,
-    img: "icons/graphql.svg",
-    alt: "GraphQL",
-  },
-];
-
+ 
 const ToolsIcons : ITechIcons[]= [
   {
     id: 1,
@@ -159,7 +162,6 @@ export {
   DatabaseIcons,
   FrontEndIcons,
   StylesIcons,
-  ApiIcons,
   ToolsIcons,
   GameIcons,
   CloudIcon,

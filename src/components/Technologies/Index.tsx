@@ -1,7 +1,6 @@
 import {
   FrontEndIcons,
   BackEndIcons,
-  ApiIcons,
   ToolsIcons,
   GameIcons,
   CloudIcon,
@@ -59,21 +58,9 @@ const Technologies = () => {
         <div className='col-lg-4 col-md-6'>
           <div className='service-block4  '>
             <div className='service-desc'>
-              <h5>Database</h5>
+              <h5>Database & API</h5>
               <div className='icon-box'>
                 {DatabaseIcons.map(({ img, alt, id }) => {
-                  return <img src={img} alt={alt} key={id} className='icons' />;
-                })}
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='col-lg-4 col-md-6'>
-          <div className='service-block4  '>
-            <div className='service-desc'>
-              <h5>API</h5>
-              <div className='icon-box'>
-                {ApiIcons.map(({ img, alt, id }) => {
                   return <img src={img} alt={alt} key={id} className='icons' />;
                 })}
               </div>
