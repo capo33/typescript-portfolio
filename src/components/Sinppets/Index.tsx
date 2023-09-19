@@ -12,7 +12,7 @@ const Snippets = () => {
         <h2>Snippets</h2>
         {AboutData.map((item) => {
           return (
-            <OL>
+            <OL key={item.id}>
               <LI>
                 <Span>
                   {item.title}
