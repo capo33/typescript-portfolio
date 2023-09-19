@@ -1,6 +1,9 @@
 import React from "react";
-import { FaUnity, FaReact, FaPython, FaAws } from "react-icons/fa";
-import { SiTypescript, SiCsharp } from "react-icons/si";
+import { FaUnity,   FaAws } from "react-icons/fa";
+import { TbBrandCSharp , TbBrandPython} from "react-icons/tb";
+import { DiDotnet } from "react-icons/di";
+import { SiCsharp } from "react-icons/si";
+
 import { IAboutData } from "../../interfaces/AboutInterface";
 
 const AboutData: IAboutData[] = [
@@ -36,22 +39,18 @@ const AboutData: IAboutData[] = [
   },
   {
     id: 7,
-    title: "🚀 Now I am moving ahead with learning [ React  ",
-    icon: <FaReact />,
-    title1: " - AWS ",
-    icon1: <FaAws />,
-    title4: " - TypeScript ",
-    icon4: <SiTypescript />,
-    title2: " ], I also started learning [ Python ",
-    icon2: <FaPython />,
-    title3: " ].",
+    title: `"🚀 Currently I'm learning AWS  `,
+    icon: <FaAws fontSize={25} color={'orange'}/>,
+    title1: " - Python ",
+    icon1: <TbBrandPython fontSize={25} color={'purble'}/>,
+    title4: " - .Net ",
+    icon4: <DiDotnet fontSize={25} color={'blue'}/>,
   },
   {
     id: 8,
-    title: "👨‍👧‍👦 I use Unity ",
-    icon: <FaUnity />,
-    title1: " and C# ",
-    icon1: <SiCsharp />,
+    title: "👨‍👧‍👦 For fun I use C# ",
+    title1: " and Unity ",
+    icon1: <FaUnity fontSize={25}/>,
     title3: " for game development.",
   },
 ];

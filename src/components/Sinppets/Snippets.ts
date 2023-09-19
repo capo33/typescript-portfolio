@@ -59,7 +59,7 @@ export const Span = styled.span`
   }
 
   &:before {
-    content: "📌";
+    content: "🦾";
     color: #222222;
     counter-increment: li;
     position: absolute;
