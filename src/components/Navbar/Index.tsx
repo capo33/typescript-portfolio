@@ -15,7 +15,7 @@ import {
   NavBtnLink,
 } from "./NavbarStyle";
 import { links } from "../../Data/NavbarData/Index";
-import CV from "../../assets/pdf/Mohamed-Resume.pdf";
+import CV from "../../assets/pdf/CV.pdf";
 
 interface NavbarProps {
   toggle: () => void;

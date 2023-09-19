@@ -12,7 +12,7 @@ import {
   NavBtnLink,
   NavBtn,
 } from "./HeaderStyle";
-import CV from "../../assets/pdf/Mo-CV.pdf";
+import CV from "../../assets/pdf/CV.pdf";
 import { NavItems } from "../Navbar/NavbarStyle";
 import { links } from "../../Data/NavbarData/Index";
 
