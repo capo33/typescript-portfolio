@@ -6,6 +6,7 @@ import {
   GameIcons,
   CloudIcon,
   DatabaseIcons,
+  StylesIcons,
 } from "../../Data/TechnologiesData/Index";
 import { FcCommandLine } from "react-icons/fc";
 
@@ -25,6 +26,18 @@ const Technologies = () => {
               <h5>Front-end</h5>
               <div className='icon-box '>
                 {FrontEndIcons.map(({ img, alt, id }) => {
+                  return <img src={img} alt={alt} key={id} className='icons' />;
+                })}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='col-lg-4 col-md-6'>
+          <div className='service-block4  '>
+            <div className='service-desc'>
+              <h5>Styles</h5>
+              <div className='icon-box '>
+                {StylesIcons.map(({ img, alt, id }) => {
                   return <img src={img} alt={alt} key={id} className='icons' />;
                 })}
               </div>

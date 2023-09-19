@@ -16,7 +16,18 @@ const BackEndIcons: ITechIcons[] = [
     img: "icons/typescript.svg",
     alt: "TypeScript",
   },
+  {
+    id: 4,
+    img: "icons/express.svg",
+    alt: "Express",
+  },
+  {
+    id: 5,
+    img: "icons/net.svg",
+    alt: "TypeScript",
+  },
 ];
+
 const DatabaseIcons: ITechIcons[] = [
   {
     id: 1,
@@ -31,6 +42,29 @@ const DatabaseIcons: ITechIcons[] = [
 ];
 
 const FrontEndIcons: ITechIcons[] = [
+  {
+    id: 1,
+    img: "icons/js.svg",
+    alt: "JavaScript",
+  },
+  {
+    id: 2,
+    img: "icons/typescript.svg",
+    alt: "TypeScript",
+  },
+  {
+    id: 3,
+    img: "icons/react.svg",
+    alt: "React",
+  },
+  {
+    id: 4,
+    img: "icons/angular.svg",
+    alt: "Angular",
+  },
+];
+
+const StylesIcons: ITechIcons[] = [
   {
     id: 1,
     img: "icons/material-ui.svg",
@@ -48,33 +82,13 @@ const FrontEndIcons: ITechIcons[] = [
   },
   {
     id: 4,
-    img: "icons/tailwind-css.svg",
+    img: "icons/tailwind.svg",
     alt: "Tailwind CSS",
   },
   {
     id: 5,
     img: "icons/styled-components.svg",
     alt: "Styled-components",
-  },
-  {
-    id: 6,
-    img: "icons/js.svg",
-    alt: "JavaScript",
-  },
-  {
-    id: 7,
-    img: "icons/typescript.svg",
-    alt: "TypeScript",
-  },
-  {
-    id: 8,
-    img: "icons/react.svg",
-    alt: "React",
-  },
-  {
-    id: 9,
-    img: "icons/angular.svg",
-    alt: "Angular",
   },
 ];
 
@@ -104,11 +118,16 @@ const ToolsIcons : ITechIcons[]= [
   },
   {
     id: 3,
+    img: "icons/githubactions.svg",
+    alt: "GitHub Action",
+  },
+  {
+    id: 4,
     img: "icons/postman.svg",
     alt: "Postman",
   },
   {
-    id: 4,
+    id: 5,
     img: "icons/docker.svg",
     alt: "Dockers",
   },
@@ -134,10 +153,12 @@ const CloudIcon : ITechIcons[]= [
     alt: "AWS",
   },
 ];
+
 export {
   BackEndIcons,
   DatabaseIcons,
   FrontEndIcons,
+  StylesIcons,
   ApiIcons,
   ToolsIcons,
   GameIcons,
