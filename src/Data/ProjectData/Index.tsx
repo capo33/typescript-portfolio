@@ -7,7 +7,7 @@ import { IProject } from "../../interfaces/ProjectsInterface";
 export const portfolioProjects: IProject[] = [
   {
     id: uuid,
-    tag: "Front-end",
+    tag: "Frontend",
 
     image: "image/data-company.png",
     title: "Data Company",
@@ -27,7 +27,7 @@ export const portfolioProjects: IProject[] = [
   },
   {
     id: uuid,
-    tag: "Front-end",
+    tag: "Frontend",
     image: "image/country-api.png",
     title: "Country API",
     description: "React - Redux - TypeScript - Rest API",
@@ -46,7 +46,7 @@ export const portfolioProjects: IProject[] = [
   },
   {
     id: uuid,
-    tag: "Front-end",
+    tag: "Frontend",
     image: "image/delta.png",
     title: "Delta Company",
     description: "React - Styled-components - Javascript",
@@ -65,7 +65,7 @@ export const portfolioProjects: IProject[] = [
   },
   {
     id: uuid,
-    tag: "Front-end",
+    tag: "Frontend",
     image: "image/fakeshop.png",
     title: "Fake Shop",
     description: "React - Redux - Javascript - Rest API",
@@ -84,7 +84,7 @@ export const portfolioProjects: IProject[] = [
   },
   {
     id: uuid,
-    tag: "Front-end",
+    tag: "Frontend",
     image: "image/ultra.png",
     title: "Ultra Company",
     description: "React - Styled-components - Javascript",
@@ -103,7 +103,7 @@ export const portfolioProjects: IProject[] = [
   },
   {
     id: uuid,
-    tag: "Front-end",
+    tag: "Frontend",
     image: "image/pokemon2.png",
     title: "Pokemon Evolution",
     description: "React - TypeScript - Rest API",
@@ -122,7 +122,7 @@ export const portfolioProjects: IProject[] = [
   },
   // {
   //   id: uuid,
-  //   tag: "Mern-stack",
+  //   tag: "Fullstack",
   //   image: "image/corner_blog.png",
   //   title: "Corner Blog",
   //   description: "React - NodeJS - MongoDB - TypeScript - TailwindCSS",
@@ -141,7 +141,7 @@ export const portfolioProjects: IProject[] = [
   // },
   {
     id: uuid,
-    tag: "Mern-stack",
+    tag: "Fullstack",
     image: "image/social-network.png",
     title: "Social Network",
     description: "React - NodeJS - MongoDB - TypeScript - Material-ui",
@@ -160,7 +160,7 @@ export const portfolioProjects: IProject[] = [
   },
   {
     id: uuid,
-    tag: "Mern-stack",
+    tag: "Fullstack",
     image: "image/home-page.png",
     title: "Yupfood",
     description: "React - NodeJS - MongoDB - TypeScript - Bootstrap",
@@ -179,7 +179,7 @@ export const portfolioProjects: IProject[] = [
   },
   {
     id: uuid,
-    tag: "Mern-stack",
+    tag: "Fullstack",
     image: "image/Q-Shop.png",
     title: "Rental Car",
     description: "React - NodeJS - MongoDB - Express - Paypal",
@@ -198,7 +198,7 @@ export const portfolioProjects: IProject[] = [
   },
   {
     id: uuid,
-    tag: "Mern-stack",
+    tag: "Fullstack",
     image: "image/homeScreen.png",
     title: "Second Hand Store",
     description: "React - GrapghQL - Apollo - Javascript",
@@ -217,7 +217,7 @@ export const portfolioProjects: IProject[] = [
   },
   {
     id: uuid,
-    tag: "Mern-stack",
+    tag: "Fullstack",
     image: "image/social-media.png",
     title: "Social Media",
     description: "React - NodeJS - MongoDB - TypeScript",
@@ -237,7 +237,7 @@ export const portfolioProjects: IProject[] = [
   },
   {
     id: uuid,
-    tag: "Mern-stack",
+    tag: "Fullstack",
     image: "image/yelpclone.png",
     title: "Yelp Clone",
     description: "React - NodeJS - PostgreSQL - TypeScript",
@@ -251,7 +251,7 @@ export const portfolioProjects: IProject[] = [
   },
   {
     id: uuid,
-    tag: "Mern-stack",
+    tag: "Fullstack",
     image: "image/main.png",
     title: "Rental Car",
     description: "React - NodeJS - MongoDB - TypeScript - Stripe",
@@ -270,7 +270,7 @@ export const portfolioProjects: IProject[] = [
   },
   // {
   //   id: uuid,
-  //   tag: "Mern-stack",
+  //   tag: "Fullstack",
   //   image: "image/tour-app.png",
   //   title: "Tour App",
   //   description: "React - ReduxToolkit - NodeJS - MongoDB",
@@ -290,7 +290,7 @@ export const portfolioProjects: IProject[] = [
 
   {
     id: uuid,
-    tag: "Front-end",
+    tag: "Frontend",
     image: "image/rick-and-morty.png",
     title: "Rick and Morty",
     description: "React - UseQuery - Rest API",
@@ -309,7 +309,7 @@ export const portfolioProjects: IProject[] = [
   },
   {
     id: uuid,
-    tag: "Front-end",
+    tag: "Frontend",
     image: "image/rick-and-morty2.png",
     title: "Rick and Morty",
     description: "React - Apollo-Client - TypeScript",
@@ -328,7 +328,7 @@ export const portfolioProjects: IProject[] = [
   },
   {
     id: uuid,
-    tag: "Front-end",
+    tag: "Frontend",
     image: "image/star-wars.png",
     title: "Star Wars",
     description: "React - UseQuery - Rest API",
@@ -347,7 +347,7 @@ export const portfolioProjects: IProject[] = [
   },
   {
     id: uuid,
-    tag: "Front-end",
+    tag: "Frontend",
     image: "image/search-user.png",
     title: "Search Users",
     description: "React - TypeScript - Rest API",
@@ -366,7 +366,7 @@ export const portfolioProjects: IProject[] = [
   },
   {
     id: uuid,
-    tag: "Front-end",
+    tag: "Frontend",
     image: "image/kahvila.png",
     title: "Caffee Counter",
     description: "Angular - TypeScript",
@@ -383,44 +383,44 @@ export const portfolioProjects: IProject[] = [
       },
     ],
   },
-  {
-    id: uuid,
-    tag: "Javascript",
-    image: "/image/speaker.png",
-    title: "Text Speaker",
-    description: "JavaScript",
-    links: [
-      {
-        id: uuid,
-        link: "https://capo33.github.io/Text-to-Speech/",
-        icon: <FcGlobe style={{ fontSize: "30px" }} />,
-      },
-      {
-        id: uuid,
-        link: "https://github.com/capo33/Text-to-Speech",
-        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
-      },
-    ],
-  },
-  {
-    id: uuid,
-    tag: "Javascript",
-    image: "/image/guss-my-number.png",
-    title: "Guess My Number",
-    description: "JavaScript - HTML - CSS - AWS S3",
-    links: [
-      {
-        id: uuid,
-        link: "https://test-capo-first-bucket.s3.eu-north-1.amazonaws.com/guess-my-number/index.html",
-        icon: <FcGlobe style={{ fontSize: "30px" }} />,
-      },
-      {
-        id: uuid,
-        link: "hthttps://github.com/capo33/Guss-my-number",
-        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
-      },
-    ],
-  },
+  // {
+  //   id: uuid,
+  //   tag: "Javascript",
+  //   image: "/image/speaker.png",
+  //   title: "Text Speaker",
+  //   description: "JavaScript",
+  //   links: [
+  //     {
+  //       id: uuid,
+  //       link: "https://capo33.github.io/Text-to-Speech/",
+  //       icon: <FcGlobe style={{ fontSize: "30px" }} />,
+  //     },
+  //     {
+  //       id: uuid,
+  //       link: "https://github.com/capo33/Text-to-Speech",
+  //       icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: uuid,
+  //   tag: "Javascript",
+  //   image: "/image/guss-my-number.png",
+  //   title: "Guess My Number",
+  //   description: "JavaScript - HTML - CSS - AWS S3",
+  //   links: [
+  //     {
+  //       id: uuid,
+  //       link: "https://test-capo-first-bucket.s3.eu-north-1.amazonaws.com/guess-my-number/index.html",
+  //       icon: <FcGlobe style={{ fontSize: "30px" }} />,
+  //     },
+  //     {
+  //       id: uuid,
+  //       link: "hthttps://github.com/capo33/Guss-my-number",
+  //       icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+  //     },
+  //   ],
+  // },
   // {
   //   id: uuid,
   //   tag: "Javascript",
@@ -462,7 +462,7 @@ export const portfolioProjects: IProject[] = [
 
   {
     id: uuid,
-    tag: "School",
+    tag: "Experimental",
     image: "image/school-projects.jpg",
     title: "School Projects",
     description: "HTML - CSS - Angular - Javascript",
@@ -481,7 +481,7 @@ export const portfolioProjects: IProject[] = [
   },
   {
     id: uuid,
-    tag: "School",
+    tag: "Experimental",
     image: "image/blitz.png",
     title: "Blitz",
     description: "HTML - CSS",

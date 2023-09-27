@@ -9,8 +9,10 @@ export const Section = styled.section`
 `;
 
 export const MenuBar = styled.div`
+  text-align: center;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 `;
 

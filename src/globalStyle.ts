@@ -12,6 +12,11 @@ const GlobalStyle = createGlobalStyle`
 export const Container = styled.div`
   z-index: 1;
   width: 100%;
+  /* text-align:center ;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
   max-width: 1300px;
   margin-right: auto;
   margin-left: auto;

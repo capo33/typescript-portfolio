@@ -21,12 +21,11 @@ import "./projects.css";
 
 const ProjectsDetails = () => {
   const [Items, setItems] = React.useState<IProject[]>(portfolioProjects);
-  console.log(Items);
   const [active, setActive] = React.useState<string>("All");
+
   const handleFilter = (e: React.MouseEvent<HTMLSpanElement>) => {
     const target = e.target as HTMLSpanElement;
     const value = target.innerText;
-    console.log(value);
     if (value === "All") {
       setItems(portfolioProjects);
       return;
@@ -52,28 +51,16 @@ const ProjectsDetails = () => {
             All
           </MenuBarItems>
           <MenuBarItems
-            className={active === "School" ? "active" : ""}
+            className={active === "Frontend" ? "active" : ""}
             onClick={handleFilter}
           >
-            School
+            Frontend
           </MenuBarItems>
           <MenuBarItems
-            className={active === "Javascript" ? "active" : ""}
+            className={active === "Fullstack" ? "active" : ""}
             onClick={handleFilter}
           >
-            Javascript
-          </MenuBarItems>
-          <MenuBarItems
-            className={active === "Front-end" ? "active" : ""}
-            onClick={handleFilter}
-          >
-            Front-end
-          </MenuBarItems>
-          <MenuBarItems
-            className={active === "Mern-stack" ? "active" : ""}
-            onClick={handleFilter}
-          >
-            Mern-stack
+            Fullstack
           </MenuBarItems>
           <MenuBarItems
             className={active === "Experimental" ? "active" : ""}
@@ -98,7 +85,7 @@ const ProjectsDetails = () => {
                   <Links>
                     {links.map((link) => {
                       return (
-                        <div className=''>
+                        <div className='' key={id()}>
                           <a
                             href={link.link}
                             key={id()}
