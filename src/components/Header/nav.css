@@ -1,0 +1,26 @@
+.eyes {
+  width: 100%;
+  margin-left: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 10px;
+ }
+
+.eye {
+  width: 30px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pupil {
+  width: 15px;
+  height: 15px;
+  border-radius: 101px;
+  background-color: #000;
+}

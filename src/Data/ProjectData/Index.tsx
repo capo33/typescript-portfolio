@@ -8,7 +8,25 @@ export const portfolioProjects: IProject[] = [
   {
     id: uuid,
     tag: "Frontend",
-
+    image: "image/crypto.png",
+    title: "Crypto Tracker",
+    description: "React - Redux-toolkit - Typescript- Material-UI",
+    links: [
+      {
+        id: uuid,
+        link: "https://crypto-coins-tracker-react.netlify.app/",
+        icon: <FcGlobe style={{ fontSize: "30px" }} />,
+      },
+      {
+        id: uuid,
+        link: "https://github.com/capo33/react-crypto-tracker",
+        icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
+      },
+    ],
+  },
+  {
+    id: uuid,
+    tag: "Frontend",
     image: "image/data-company.png",
     title: "Data Company",
     description: "React - Styled-components - Javascript",

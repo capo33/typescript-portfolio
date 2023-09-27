@@ -51,6 +51,12 @@ const ProjectsDetails = () => {
             All
           </MenuBarItems>
           <MenuBarItems
+            className={active === "Experimental" ? "active" : ""}
+            onClick={handleFilter}
+          >
+            Experimental
+          </MenuBarItems>
+          <MenuBarItems
             className={active === "Frontend" ? "active" : ""}
             onClick={handleFilter}
           >
@@ -61,12 +67,6 @@ const ProjectsDetails = () => {
             onClick={handleFilter}
           >
             Fullstack
-          </MenuBarItems>
-          <MenuBarItems
-            className={active === "Experimental" ? "active" : ""}
-            onClick={handleFilter}
-          >
-            Experimental
           </MenuBarItems>
         </MenuBar>
 

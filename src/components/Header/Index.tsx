@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { IconContext } from "react-icons/lib";
 import { FaBars, FaTimes } from "react-icons/fa";
- 
+
 import {
   Nav,
   NavbarContainer,
@@ -15,10 +15,10 @@ import {
 import CV from "../../assets/pdf/CV.pdf";
 import { NavItems } from "../Navbar/NavbarStyle";
 import { links } from "../../Data/NavbarData/Index";
-
+import "./nav.css";
 const Header = () => {
   const [click, setClick] = useState(false);
-
+     
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
