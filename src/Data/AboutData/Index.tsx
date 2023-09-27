@@ -10,13 +10,9 @@ const AboutData: IAboutData[] = [
   {
     id: 1,
     title:
-      "🤔 Jumping from one field to another is not so easy. But also not that hard 😁.",
+      "👋 Hi, I’m a Frontend Developer with a passion for building beautiful and functional websites and applications.",
   },
-  {
-    id: 2,
-    title:
-      "😏 4 years ago, I had my own business, but I needed to close it due to Corona. So, I started looking for something suitable at that time, basically trying to find my own path in life. And yeah, It didn't take long to figure out where and how my future would be, I found it through programming 😍.",
-  },
+  
   {
     id: 3,
     title: "💻 I studied web-development at Business Collage School.",
@@ -24,7 +20,7 @@ const AboutData: IAboutData[] = [
   {
     id: 4,
     title:
-      "👍 Since I started programming, I feel like everything is getting better than ever and I have really enjoyed every moment of this journey.",
+      "👍 Since I started programming, I feel like I have found my passion and I'm always looking for new challenges. I have really enjoyed every moment of this journey.",
   },
 
   {
@@ -51,7 +47,7 @@ const AboutData: IAboutData[] = [
     title: "👨‍👧‍👦 For fun I use C# ",
     title1: " and Unity ",
     icon1: <FaUnity fontSize={25}/>,
-    title3: " for game development.",
+    title3: "to develop games.",
   },
 ];
 
