@@ -12,18 +12,18 @@ const workExperienceData: IQualificationData[] = [
   {
     id: 2,
     date: "04/2022 - 08/20220",
-    title: "Trainee",
+    title: "Full Stack Developer Intern",
     company: "Integrify, Helsinki",
     description:
-      "DAssisted with creating cross-platform UI web components and built responsive applications using front-end frameworks",
+      "Created, designed and presented 5 projects from concept to solution.",
   },
   {
     id: 3,
-    date: "09/2019 - 04/2020",
+    date: "04/2019 - 07/2020",
     title: "The restaurateur - an entrepreneur",
     company: "Capo33, Helsinki",
     description:
-      "Food preparation and monitored safety protocols. Implemented effective inventory control systems to reduce food spoilage and waste",
+      "Implemented effective inventory control systems to reduce food spoilage and waste",
   },
 ];
 
@@ -31,10 +31,10 @@ const educactionData: IQualificationData[] = [
   {
     id: 1,
     date: "08/2020 - Present",
-    title: "Encoder training Angular and .Net",
+    title: "Software development Angular and .Net",
     company: "Business College Helsinki",
     description:
-      "I have completed the coding part and what is left is the theoretical part",
+      "I have completed the coding part & what remains is the theoretical part",
   },
   {
     id: 2,
@@ -49,7 +49,7 @@ const educactionData: IQualificationData[] = [
     date: "08/2020 - Present",
     title: "Business management",
     company:
-      "Higher Institute for Cooperative and administrative Studies Egypt, Cairo",
+      "Higher Institute for Cooperative-administrative Studies Egypt, Cairo",
     description:
       "Financial accounting, marketing strategy, organizational leadership, and business decision-making",
   },
