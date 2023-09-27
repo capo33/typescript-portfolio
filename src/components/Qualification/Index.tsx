@@ -1,4 +1,4 @@
-import { FcGraduationCap, FcBriefcase } from "react-icons/fc";
+import { FcGraduationCap, FcBriefcase, FcDiploma1 } from "react-icons/fc";
 
 import {
   educactionData,
@@ -13,7 +13,9 @@ const Qualification = () => {
   return (
     <>
       <div className='row py-5'>
-        <h2>Qualification</h2>
+        <h2>
+          <FcDiploma1 />Qualification
+        </h2>
         <div className='col-xs-12 col-sm-6 '>
           <div className='timeline'>
             <h3 style={TitleStyle}>

@@ -1,3 +1,5 @@
+import {FcIdea} from "react-icons/fc";
+
 import myImage from "../../assets/images/crop.jpg";
 import { AboutData } from "../../Data/AboutData/Index";
 import { Row, CardImage, Image, TextWrapper, Span, OL, LI } from "./Snippets";
@@ -9,7 +11,7 @@ const Snippets = () => {
         <Image src={myImage} alt='capo' />
       </CardImage>
       <TextWrapper>
-        <h2>Snippets</h2>
+        <h2><FcIdea />Snippets</h2>
         {AboutData.map((item) => {
           return (
             <OL key={item.id}>

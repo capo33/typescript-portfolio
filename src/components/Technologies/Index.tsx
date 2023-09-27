@@ -15,8 +15,7 @@ const Technologies = () => {
   return (
     <section>
       <h2>
-        <FcCommandLine />
-        Technical Skills
+        <FcCommandLine />Technical Skills
       </h2>
       <div className='row py-2 pb-5'>
         <div className='col-lg-4 col-md-6'>
