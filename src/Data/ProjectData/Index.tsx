@@ -257,12 +257,12 @@ export const portfolioProjects: IProject[] = [
     id: uuid,
     tag: "Fullstack",
     image: "image/yelpclone.png",
-    title: "Yelp Clone",
-    description: "React - NodeJS - PostgreSQL - TypeScript",
+    title: "Restaurant Finder - Yelp Clone",
+    description: "React - NodeJS - PostgreSQL - TypeScript - Redux",
     links: [
       {
         id: uuid,
-        link: "https://github.com/capo33/yelp_clone",
+        link: "https://github.com/capo33/restaurant-finder",
         icon: <GoMarkGithub style={{ fontSize: "30px", color: "black" }} />,
       },
     ],
