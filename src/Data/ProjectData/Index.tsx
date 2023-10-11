@@ -199,7 +199,7 @@ export const portfolioProjects: IProject[] = [
     id: uuid,
     tag: "Fullstack",
     image: "image/Q-Shop.png",
-    title: "Rental Car",
+    title: "Q-Shop",
     description: "React - NodeJS - MongoDB - Express - Paypal",
     links: [
       {
