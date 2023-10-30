@@ -46,7 +46,7 @@ const educactionData: IQualificationData[] = [
   },
   {
     id: 3,
-    date: "08/2020 - Present",
+    date: "06/2003 - 06/2007",
     title: "Business management",
     company:
       "Higher Institute for Cooperative-administrative Studies Egypt, Cairo",
